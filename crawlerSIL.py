@@ -1,5 +1,4 @@
 import scrapy
-import re
 
 # Preparamos los URLs iniciales
 urls = []
@@ -19,14 +18,12 @@ for i in range(len(a)):
 URLlegis = """http://sil.gobernacion.gob.mx/Librerias
             /pp_PerfilLegislador.php?SID=&Referencia="""
 
-cssPath = ' body div#main.subtitle table tbody tr td.tddatosazul a[href^="#"]'
+cssPath = 'tr td.tddatosazul a[href^="#"]'
 
 outerHTML = """<a href="#1" onclick="mUtil.winLeft(&quot;/Librerias/
             pp_PerfilLegislador.php?SID=&amp;
             Referencia=9219077&quot;,500,700,1,&quot;leg&quot;);">
             Abdala Carmona Yahleel</a>"""
-pattern = r'(?<=Referencia=)\d+'
-numRef = []
 
 
 class SILSpider(scrapy.Spider):
@@ -37,16 +34,9 @@ class SILSpider(scrapy.Spider):
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
-        referencias = response.css(cssPath).extract()
-        for referencia in referencias:
+        referencias = response.css(cssPath).re(r'(?<=Referencia=)\d+')
 
-            """ Esto se debe mejorar, estoy concatenando una lista de un
-            único valor en cada elemento de numRef, cosa que desperdicia
-            recursos y hace que requiramos usar e[0] más adelante
-            """
-            numRef.append(re.findall(pattern, referencia))
-
-        links = [URLlegis + e[0] for e in numRef]
+        links = [URLlegis + referencia for referencia in referencias]
 
         for link in links:
             yield response.follow(url=link, callback=self.parse2)
