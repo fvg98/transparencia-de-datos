@@ -1,4 +1,5 @@
 import scrapy
+import re
 
 # Preparamos los URLs iniciales
 urls = []
@@ -16,7 +17,16 @@ for i in range(len(a)):
 
 # Spider
 URLlegis = """http://sil.gobernacion.gob.mx/Librerias
-            /pp_PerfilLegislador.php?SID=&Referencia=#"""
+            /pp_PerfilLegislador.php?SID=&Referencia="""
+
+cssPath = ' body div#main.subtitle table tbody tr td.tddatosazul a[href^="#"]'
+
+outerHTML = """<a href="#1" onclick="mUtil.winLeft(&quot;/Librerias/
+            pp_PerfilLegislador.php?SID=&amp;
+            Referencia=9219077&quot;,500,700,1,&quot;leg&quot;);">
+            Abdala Carmona Yahleel</a>"""
+pattern = r'(?<=Referencia=)\d+'
+numRef = []
 
 
 class SILSpider(scrapy.Spider):
@@ -27,7 +37,12 @@ class SILSpider(scrapy.Spider):
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
-        links = response.css('Los href, nos interesa &Referencia').extract()
+        referencias = response.css(cssPath).extract()
+        for referencia in referencias:
+            numRef.append(re.findall(pattern, referencia))
+
+        links = [URLlegis + e for e in numRef]
+
         for link in links:
             yield response.follow(url=link, callback=self.parse2)
 
