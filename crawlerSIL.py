@@ -4,6 +4,8 @@ import scrapy
 urls = []
 a = [*range(57, 65, 1)]
 b = [*range(1, 3, 1)]
+# Aquí también se puede usar re.split() para separar el URL sin necesidad
+# de incluir los # que puse para ahorrar tiempo.
 urlMod = """http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso
         /ResultIntegHCongreso.php
         ?SID=&Prin_El=0&Entidad=0&Legislatura=#&Camara=#&Partido=0&Orden="""
@@ -20,11 +22,6 @@ URLlegis = """http://sil.gobernacion.gob.mx/Librerias
 
 cssPath = 'tr td.tddatosazul a[href^="#"]'
 
-outerHTML = """<a href="#1" onclick="mUtil.winLeft(&quot;/Librerias/
-            pp_PerfilLegislador.php?SID=&amp;
-            Referencia=9219077&quot;,500,700,1,&quot;leg&quot;);">
-            Abdala Carmona Yahleel</a>"""
-
 
 class SILSpider(scrapy.Spider):
     name = 'silspider'
@@ -40,6 +37,22 @@ class SILSpider(scrapy.Spider):
 
         for link in links:
             yield response.follow(url=link, callback=self.parse2)
+
+# Aquí debemos diseñar el diccionario con los campos que deseamos extraer,
+# quizá sea más fácil con RegEx, las tags no tienen nada característico
+# con lo cual podamos identificar cada cosa, lo único útil es que todo lo que
+# buscamos está dentro de múltiples <table>, aunque extremadamente sucio
+
+# Primero debemos, a partir del nombre y fecha de nacimiento, crear un ID
+# para cada legislador (RegEx)
+
+# Después, identificar todas las categorías que queremos para
+# así poder extraer el texto que esté contenido en tablas tales que
+# contengan el nombre de esta categoría en su título (creo que es una de las
+# primeras entradas de la tabla)
+
+# Luego usar esas categorías como llaves en nuestro diccionario y meter todo lo
+# correspondiente como una lista bajo esa llave
 
     def parse2(self, response):
         yield "hello"
