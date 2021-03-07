@@ -2,7 +2,7 @@ import scrapy
 
 # Preparamos los URLs iniciales
 urls = []
-a = [*range(55, 65, 1)]
+a = [*range(57, 65, 1)]
 b = [*range(1, 3, 1)]
 urlMod = """http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso
         /ResultIntegHCongreso.php
