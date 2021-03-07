@@ -39,9 +39,14 @@ class SILSpider(scrapy.Spider):
     def parse(self, response):
         referencias = response.css(cssPath).extract()
         for referencia in referencias:
+
+            """ Esto se debe mejorar, estoy concatenando una lista de un
+            único valor en cada elemento de numRef, cosa que desperdicia
+            recursos y hace que requiramos usar e[0] más adelante
+            """
             numRef.append(re.findall(pattern, referencia))
 
-        links = [URLlegis + e for e in numRef]
+        links = [URLlegis + e[0] for e in numRef]
 
         for link in links:
             yield response.follow(url=link, callback=self.parse2)
