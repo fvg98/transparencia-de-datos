@@ -69,5 +69,8 @@ class SILSpider(scrapy.Spider):
 # response.ss('html body table[border="0"] tR TD[class="simpletextmayor"]
 #           ::text').extract()
 
+# Texto de cada fila de cada tabla
+# response.css('html body table[border="1"] tR ::text').extract()
+
     def parse2(self, response):
         yield "hello"
