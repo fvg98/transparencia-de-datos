@@ -51,8 +51,23 @@ class SILSpider(scrapy.Spider):
 # contengan el nombre de esta categoría en su título (creo que es una de las
 # primeras entradas de la tabla)
 
-# Luego usar esas categorías como llaves en nuestro diccionario y meter todo lo
-# correspondiente como una lista bajo esa llave
+# Luego usar esas categorías como llaves en nuestro diccionario y meter todo
+# lo correspondiente como una lista bajo esa llave
+
+###########################################################################
+# Lista de llaves del diccionario (la suma de las tres):
+
+# Perfil del Legislador
+# response.css('html body table[border="0"] tR TD[class="SubTitle"]::text')
+#         .extract()
+
+# Comisiones
+# response.css('html body table[border="0"] tR TD[class="simpletextmayor"]
+#          b::text').extract()
+
+# Trayectorias y otros
+# response.ss('html body table[border="0"] tR TD[class="simpletextmayor"]
+#           ::text').extract()
 
     def parse2(self, response):
         yield "hello"
