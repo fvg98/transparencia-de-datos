@@ -66,11 +66,18 @@ class SILSpider(scrapy.Spider):
 #          b::text').extract()
 
 # Trayectorias y otros
-# response.ss('html body table[border="0"] tR TD[class="simpletextmayor"]
+# response.css('html body table[border="0"] tR TD[class="simpletextmayor"]
 #           ::text').extract()
 
+###########################################################################
 # Texto de cada fila de cada tabla
-# response.css('html body table[border="1"] tR ::text').extract()
+
+# lista = response.css('html body table[border="1"] tR ::text').extract()
+
+# nueva_lista = [x.replace('\t','').replace('\r','').replace('\n','')
+#                .replace('\xa0','').strip() for x in lista]
+
+###########################################################################
 
     def parse2(self, response):
         yield "hello"
