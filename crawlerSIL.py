@@ -57,7 +57,16 @@ class SILSpider(scrapy.Spider):
         lista = response.css('td[class*="td"] ::text').extract()
         lista_limpia = [i.replace('\n', '').replace('\t', '')
                         .replace('\r', '').strip() for i in lista]
+
+        perfil = response.css('html body table[border="0"] tR TD[class="SubTitle"]::text').extract()
+        comisiones = response.css('html body table[border="0"] tR TD[class="simpletextmayor"] b::text').extract()
+        trayectoria_y_otros = response.css('html body table[border="0"] tR TD[class="simpletextmayor"]::text').extract()
+        lista_categorias = perfil + comisiones + trayectoria_y_otros
+
         with open('out.txt', 'a') as f:
+            for categoria in lista_categorias:
+                f.write("%s, " % categoria)
+            f.write("\n")
             for item in lista_limpia:
                 f.write("%s, " % item)
             f.write("\n")
