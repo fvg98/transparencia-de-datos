@@ -1,6 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import scrapy
 from scrapy.crawler import CrawlerProcess
 import re
+import json
 
 # Preparamos los URLs iniciales
 urls = []
@@ -28,12 +32,33 @@ cssPath = 'tr td.tddatosazul a[href^="#"]'
 def limpieza(lista):
     i = 0
     while i < len(lista):
-        if i>0 and bool(re.match(r'^[a-z]', lista[i])):
+        if i>0 and bool(re.match(r'^[a-z][^@]+$', lista[i])):
             lista[i-1] += " " + lista[i]
             del lista[i]
         else:
             i+=1
     return lista
+
+def encuentraDivision(todo,categorias):
+    indices=[]; i=0; j=0
+    while i<len(todo) and j<len(categorias):
+          if todo[i] == categorias[j]:
+              indices.append(i);i+=1; j+=1
+          else:
+              i+=1
+    return indices
+
+def limpiezaPerfil(sublista, subcategorias):
+    res = sublista[:]
+    res[subcategorias[-1]+1:] = [" ".join(res[subcategorias[-1]+1:])]
+    for i in range(-1,-len(subcategorias),-1):
+        res[subcategorias[i-1]+1:subcategorias[i]] = [" ".join(res[subcategorias[i-1]+1:subcategorias[i]])]
+    return res
+
+def creaDicc(a):
+    ite = iter(a)
+    res_dct = dict(zip(ite,ite))
+    return res_dct
 
 
 class SILSpider(scrapy.Spider):
@@ -62,45 +87,46 @@ class SILSpider(scrapy.Spider):
     def parse_legisladores(self, response):
 
         todo = [i.replace('\n', '').replace('\t', '')
-                .replace('\r', '').strip() for i in
+                .replace('\r', '').replace('\xa0','').strip() for i in
                 response.css('td[class]:not([id="oculto"]) ::text').extract()]
 
         perfil = response.css('td[class="SubTitle"]::text').extract()
         comisiones = response.css('td[class="simpletextmayor"] ::text').extract()
-        trayectoria_y_otros = response.css('td[class="simpletextmayor"]::text').extract()
-        titulos = perfil + comisiones + trayectoria_y_otros
+#        trayectoria_y_otros = response.css('td[class="simpletextmayor"]::text').extract()
+        titulos = perfil + comisiones #+ trayectoria_y_otros
 
-        categorias = [i.replace('\n', '').replace('\t', '')
-                      .replace('\r', '').strip() for i in
+        cats = [i.replace('\n', '').replace('\t', '')
+                      .replace('\r', '').replace('\xa0','').strip() for i in
                       response.css('td[class="tdcriterio"] ::text').extract()]
 
-        categorias_perfil = [i.replace('\n', '').replace('\t', '')
-                             .replace('\r', '').strip() for i in
+        cat_perfil = [i.replace('\n', '').replace('\t', '')
+                             .replace('\r', '').replace('\xa0','').strip() for i in
                              response.css('td[class="tdcriterioPer"] ::text')
                              .extract()]
 
         datos = [i.replace('\n', '').replace('\t', '')
-                      .replace('\r', '').strip() for i in
+                      .replace('\r', '').replace('\xa0','').strip() for i in
                       response.css('td[class="tddatosazul"] ::text').extract()]
 
-        categorias_perfil_l = limpieza(categorias_perfil)
-        categorias_l = limpieza(categorias)
+        cat_perfil_l = limpieza(cat_perfil)
         todo_l = limpieza(todo)
-        datos_l = limpieza(datos)
 
+        indice_titulos = encuentraDivision(todo_l, titulos)
+        indice_catPer = encuentraDivision(todo_l[indice_titulos[0]+1:indice_titulos[1]], cat_perfil_l)
 
-        with open('out.txt', 'a') as f:
-            for categoria in titulos:
-                f.write("%s, " % categoria)
-            f.write("\n")
-            for item in todo_l:
-                f.write("%s, " % item)
-            f.write("\n")
+        todo_perfil = limpiezaPerfil(todo_l[indice_titulos[0]+1:indice_titulos[1]], indice_catPer)
 
+        diccionarios = {}
+        diccionarios[titulos[0]] = creaDicc(todo_perfil)
 
+        diccionario = {}
+# Falta generar algo similar al CURP, pero algunos legisladores no tienen
+# fecha de nacimiento registrada
+        diccionario['CURP'] = diccionarios
 
+        with open('data.json', 'a') as f:
+            json.dump(diccionario, f, indent=4, ensure_ascii=False).encode('utf8')
 
-diccionario = dict()
 
 process = CrawlerProcess()
 
