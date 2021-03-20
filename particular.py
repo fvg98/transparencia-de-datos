@@ -36,6 +36,11 @@ def limpiezaPerfil(sublista, subcategorias):
     return res
 
 
+def creaCURP(nombre):
+    section = re.findall(':(.*)por', nombre)
+    lista_iniciales = re.findall(r"([^\W])(?:[^\W]+)", section[0])
+    return "".join(lista_iniciales)
+
 def creaDicc(a):
     ite = iter(a)
     res_dct = dict(zip(ite,ite))
@@ -90,13 +95,14 @@ class SILSpider(scrapy.Spider):
 
         todo_perfil = limpiezaPerfil(todo_l[indice_titulos[0]+1:indice_titulos[1]],indice_catPer)
 
-        diccionarios = {}
-        diccionarios[titulos[0]] = creaDicc(todo_perfil)
+#        diccionarios = {}
+#        diccionarios[titulos[0]] = creaDicc(['CURP','1']+todo_perfil)
+        diccionario = creaDicc(['CURP',creaCURP(todo_perfil[1])]+todo_perfil)
 
-        diccionario = {}
-        diccionario['CURP'] = diccionarios
+#        diccionario = {}
+#        diccionario['CURP'] = diccionarios
 
-        with open('data.json', 'a') as f:
+        with open('data.json', 'w') as f:
             json.dump(diccionario, f, indent=4, ensure_ascii=False).encode('utf8')
 
 

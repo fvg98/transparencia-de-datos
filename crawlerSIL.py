@@ -55,6 +55,11 @@ def limpiezaPerfil(sublista, subcategorias):
         res[subcategorias[i-1]+1:subcategorias[i]] = [" ".join(res[subcategorias[i-1]+1:subcategorias[i]])]
     return res
 
+def creaCURP(nombre):
+    section = re.findall(':(.*)por', nombre)
+    lista_iniciales = re.findall(r"([^\W])(?:[^\W]+)", section[0])
+    return "".join(lista_iniciales)
+
 def creaDicc(a):
     ite = iter(a)
     res_dct = dict(zip(ite,ite))
@@ -116,13 +121,14 @@ class SILSpider(scrapy.Spider):
 
         todo_perfil = limpiezaPerfil(todo_l[indice_titulos[0]+1:indice_titulos[1]], indice_catPer)
 
-        diccionarios = {}
-        diccionarios[titulos[0]] = creaDicc(todo_perfil)
+#        diccionarios = {}
+#        diccionarios[titulos[0]] = creaDicc(todo_perfil)
 
-        diccionario = {}
+#        diccionario = {}
 # Falta generar algo similar al CURP, pero algunos legisladores no tienen
 # fecha de nacimiento registrada
-        diccionario['CURP'] = diccionarios
+#        diccionario['CURP'] = diccionarios
+        diccionario = creaDicc(['CURP',creaCURP(todo_perfil[1])]+todo_perfil)
 
         with open('data.json', 'a') as f:
             json.dump(diccionario, f, indent=4, ensure_ascii=False).encode('utf8')
