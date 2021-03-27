@@ -1,0 +1,13 @@
+name: prueba-dashboard
+title: prueba-dashboard
+username:
+account: transparencia-legislativa
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3871733
+bundleId: 4400844
+url: https://transparencia-legislativa.shinyapps.io/prueba-dashboard/
+when: 1616834737.84978
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app.R|www/logo.jpg

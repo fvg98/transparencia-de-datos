@@ -1,5 +1,8 @@
 # Dashboard para conectar: 
 
+library(shiny)
+
+library(shinydashboard)
 #Servidor
 
 server <- function(input, output) {
