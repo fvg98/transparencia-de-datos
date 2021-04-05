@@ -26,6 +26,11 @@ def cleanData(df):
     df[["FechaNacimiento","LugarNacimiento"]]=df["Nacimiento"].str.split('Entidad:',1,expand=True)
     df[["Extra3","FechaNacimiento"]]=df["FechaNacimiento"].str.split(':',1,expand=True)
     df[["LugarNacimiento","Extra3"]]=df["LugarNacimiento"].str.split('Ciudad:',1,expand=True)
+    df[["Apellido","Nombre"]]=df["Nombre"].str.split(',',1,expand=True)
+    
+    df['Nombre']=df['Nombre'].str.strip()
+    df['Apellido']=df['Apellido'].str.strip()
+    df["Nombre"]=df["Nombre"]+" "+df["Apellido"]
     
     df[["Extra4","Zona"]]=df["Zona"].str.split(':',1,expand=True)
     
@@ -56,6 +61,7 @@ def cleanData(df):
                                               format="%d/%m/%Y")
     df['FinLegislatura'] =  pd.to_datetime(df['FinLegislatura'], 
                                               format="%d/%m/%Y")
+    df=df.sort_values(by=["InicioLegislatura","Nombre"])
     return df
 
 df=cleanData(df)

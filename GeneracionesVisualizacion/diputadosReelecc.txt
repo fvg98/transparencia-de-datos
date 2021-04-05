@@ -1,0 +1,450 @@
+N°	Diputada / Diputado	Grupo Parlamentario	Entidad federativa	Distrito / Circunscripción	Tipo de elección	Fecha de recepción	En funciones	Carta
+1	Abelina López Rodríguez	MORENA	Guerrero	Distrito 4	Mayoría relativa	17 de diciembre del 2020	En funciones	
+2	Abril Alcalá Padilla	PRD	Jalisco	Distrito 8	Mayoría relativa	22 de diciembre del 2020	En funciones	
+3	Absalón García Ochoa	PAN	Jalisco	Distrito 15	Mayoría relativa	16 de diciembre del 2020	En funciones	
+4	Adela Piña Bernal	MORENA	Ciudad de México	4a Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+5	Adolfo Torres Ramírez	PAN	Michoacán	5a Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+6	Adriana Dávila Fernández	PAN	Tlaxcala	4a Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+7	Adriana Lozano Rodríguez	PES	Tamaulipas	Distrito 4	Mayoría relativa	16 de diciembre del 2020	En funciones	
+8	Adriana María Guadalupe Espinosa de los Monteros	MORENA	Ciudad de México	Distrito 9	Mayoría relativa	17 de diciembre del 2020	En funciones	
+9	Adriana Paulina Teissier Zavala	PES	Quintana Roo	Distrito 1	Mayoría relativa	16 de diciembre del 2020	En funciones	
+10	Agustín Reynaldo Huerta González	MORENA	Puebla	4ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+11	Alán Jesús Falomir Saenz	MC	Chihuahua	Distrito 8	Mayoría relativa	21 de diciembre del 2020	En funciones	
+12	Alberto Villa Villegas	MORENA	Jalisco	1ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+13	Aleida Alavez Ruiz	MORENA	Ciudad de México	Distrito 19	Mayoría relativa	17 de diciembre del 2020	En funciones	
+14	Alejandra Pani Barragán	MORENA	Morelos	Distrito 2	Mayoría relativa	17 de diciembre del 2020	En funciones	
+15	Alejandro Barroso Chávez	PT	Puebla	Distrito 15	Mayoría relativa	15 de diciembre del 2020	En funciones	
+16	Alejandro Carvajal Hidalgo	MORENA	Puebla	Distrito 6	Mayoría relativa	17 de diciembre del 2020	En funciones	
+17	Alejandro Ponce Cobos	MORENA	Oaxaca	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+18	Alejandro Viedma Velázquez	MORENA	México	5ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+19	Alfonso Pérez Arroyo	MORENA	Puebla	Distrito 9	Mayoría relativa	17 de diciembre del 2020	En funciones	
+20	Alfonso Ramírez Cuéllar	MORENA	Ciudad de México	Distrito 14	Mayoría relativa	17 de diciembre del 2020	En funciones	
+21	Alfredo Antonio Gordillo Moreno	MORENA	Chiapas	Distrito 2	Mayoría relativa	22 de diciembre del 2020	En funciones	
+22	Alfredo Femat Bañuelos	PT	Zacatecas	Distrito 3	Mayoría relativa	15 de diciembre del 2020	En funciones	
+23	Alfredo Porras Domínguez	PT	Baja California Sur	Distrito 2	Mayoría relativa	14 de diciembre del 2020	En funciones	
+24	Alfredo Vázquez Vázquez	MORENA	Chiapas	Distrito 3	Mayoría relativa	17 de diciembre del 2020	En funciones	
+25	Alfredo Villegas Arreola	PRI	Sinaloa	1ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+26	Alma Delia Navarrete Rivera	MORENA	México	Distrito 10	Mayoría relativa	17 de diciembre del 2020	En funciones	
+27	Ana Karina Rojo Pimentel	PT	Ciudad de México	Distrito 20	Mayoría relativa	15 de diciembre del 2020	En funciones	
+28	Ana Lilia Guillén Quiroz	MORENA	Michoacán	Distrito 8	Mayoría relativa	17 de diciembre del 2020	En funciones	
+29	Ana Lilia Herrera Anzaldo	PRI	México	5ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+30	Ana Lucia Riojas Martínez	SP	Ciudad de México	4ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+31	Ana María Rodríguez Ruiz	MORENA	Ciudad de México	Distrito 18	Mayoría relativa	17 de diciembre del 2020	En funciones	
+32	Ana Paola López Birlan	PAN	Querétaro	Distrito 5	Mayoría relativa	16 de diciembre del 2020	En funciones	
+33	Ana Priscila González García	MC	Jalisco	Distrito 20	Mayoría relativa	16 de diciembre del 2020	En funciones	
+34	Ana Ruth García Grande	PT	Baja California Sur	Distrito 1	Mayoría relativa	15 de diciembre del 2020	En funciones	
+35	Anilú Ingram Vallines	PRI	Verazcruz	3ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+36	Anita Sánchez Castro	MORENA	Michoacán	Distrito 6	Mayoría relativa	17 de diciembre del 2020	En funciones	
+37	Annia Sarahí Gómez Cárdenas	PAN	Nuevo León	Distrito 6	Mayoría relativa	16 de diciembre del 2020	En funciones	
+38	Araceli Ocampo Manzanares	MORENA	Guerrero	Distrito 2	Mayoría relativa	17 de diciembre del 2020	En funciones	
+39	Ariel Rodríguez Vázquez	MC	Guanajuato	Distrito 1	Mayoría relativa	16 de diciembre del 2020	En funciones	
+40	Armando Contreras Castillo	MORENA	Oaxaca	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+41	Armando González Escoto	PES	Ciudad de México	Distrito 2	Mayoría relativa	16 de diciembre del 2020	En funciones	
+42	Armando Javier Zertuche Zuani	PT	Tamaulipas	Distrito 9	Mayoría relativa	15 de diciembre del 2020	En funciones	
+43	Armando Reyes Ledesma	PT	Baja California	Distrito 3	Mayoría relativa	15 de diciembre del 2020	En funciones	
+44	Armando Tejeda Cid	PAN	Michoacán	Distrito 4	Mayoría relativa	18 de diciembre del 2020	En funciones	
+45	Arturo Escobar y Vega	PVEM	Ciudad de México	4ª Circunscripción	Representación proporcional	18 de diciembre del 2020	En funciones	
+46	Arturo Roberto Hernández Tapia	MORENA	México	Distrito 35	Mayoría relativa	17 de diciembre del 2020	En funciones	
+47	Azael Santiago Chepi	MORENA	Oaxaca	Distrito 4	Mayoría relativa	17 de diciembre del 2020	En funciones	
+48	Beatriz Dominga Pérez López	MORENA	Oaxaca	Distrito 6	Mayoría relativa	17 de diciembre del 2020	En funciones	
+49	Beatriz Rojas Martínez	MORENA	Ciudad de México	Distrito 7	Mayoría relativa	17 de diciembre del 2020	En funciones	
+50	Beatriz Silvia Robles Gutiérrez	MORENA	Querétaro	Distrito 3	Mayoría relativa	17 de diciembre del 2020	En funciones	
+51	Benito Medina Herrera	PRI	Baja California	1a Crcunscricpción	Mayoría relativa	04 de enero del 2021	En funciones	
+52	Benjamín Robles Montoya	PT	Oaxaca	Distrito 8	Mayoría relativa	15 de diciembre del 2020	En funciones	
+53	Benjamín Saúl Huerta Corona	MORENA	Puebla	Distrito 11	Mayoría relativa	17 de diciembre del 2020	En funciones	
+54	Bonifacio Aguilar Linda	MORENA	Veracruz	Distrito 18	Mayoría relativa	17 de diciembre del 2020	En funciones	
+55	Brasil Alberto Acosta Peña	PRI	México	5ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+56	Brenda Espinosa López	MORENA	Morelos	4ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+57	Carlos Alberto Morales Vázquez	S/P	Chiapas	3ª Circunscripción	Representación proporcional	15 de diciembre del 2020	En funciones	
+58	Carlos Alberto Puente Salas	PVEM	Zacatecas	2ª Circunscripción	Representación proporcional	18 de diciembre del 2020	En funciones	
+59	Carlos Alberto Valenzuela González	PAN	Veracruz	3ª Circunscripción	Representación proporcional	18 de diciembre del 2020	En funciones	
+60	Carlos Carreón Mejía	PAN	Tlaxcala	4ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+61	Carlos Elhier Cinta Rodríguez	PAN	Guanajuato	2ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+62	Carlos Enrique Martínez Aké	MORENA	Campeche	Distrito 1	Mayoría relativa	17 de diciembre del 2020	En funciones	
+63	Carlos Humberto Castaños Valenzuela	PAN	Sinaloa	1ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+64	Carlos Javier Lamarque Cano	MORENA	Sonora	Distrito 6	Mayoría relativa	17 de diciembre del 2020	En funciones	
+65	Carlos lván Ayala Bobadilla	MORENA	Sinaloa	Distrito 2	Mayoría relativa	22 de diciembre del 2020	En funciones	
+66	Carlos Pavón Campos	PRI	Zacatecas	2ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+67	Carlos Sánchez Barrios	MORENA	Guerrero	Distrito 7	Mayoría relativa	17 de diciembre del 2020	En funciones	
+68	Carlos Torres Piña	MORENA	Michoacán	5ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+69	Carmen Julia Prudencio González	MC	Jalisco	Distrito 9	Mayoría relativa	16 de diciembre del 2020	En funciones	
+70	Carmen Medel Palma	MORENA	Veracruz	Distrito 14	Mayoría relativa	17 de diciembre del 2020	En funciones	
+71	Carmen Mora García	MORENA	Veracruz	Distrito 9	Mayoría relativa	17 de diciembre del 2020	En funciones	
+72	Carmen Patricia Palma Olvera	MORENA	Quintana Roo	Distrito 2	Mayoría relativa	17 de diciembre del 2020	En funciones	
+73	Carmina Yadira Regalado Mardueño	MORENA	Nayarit	1ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+74	Carol Antonio Altamirano	MORENA	Oaxaca	Distrito 5	Mayoría relativa	17 de diciembre del 2020	En funciones	
+75	Carolina García Aguilar	PES	México	Distrito 6	Mayoría relativa	16 de diciembre del 2020	En funciones	
+76	Casimiro Zamora Valdéz	MORENA	Sinaloa	Distrito 4	Mayoría relativa	17 de diciembre del 2020	En funciones	
+77	Cecilia Anunciación Patrón Laviada	PAN	Yucatán	3ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+78	César Agustín Hernández Pérez	MORENA	México	Distrito 30	Mayoría relativa	17 de diciembre del 2020	En funciones	
+79	Claudia Angélica Domínguez Vázquez	PT	México	Distrito 14	Mayoría relativa	15 de diciembre del 2020	En funciones	
+80	Claudia Báez Ruiz	PES	Puebla	Distrito 3	Mayoría relativa	16 de diciembre del 2020	En funciones	
+81	Claudia Elena Lastra Muñoz	PT	Chihuahua	Distrito 3	Mayoría relativa	15 de diciembre del 2020	En funciones	
+82	Claudia López Rayón	MORENA	Ciudad de México	Distrito 5	Mayoría relativa	17 de diciembre del 2020	En funciones	
+83	Claudia Pastor Badilla	PRI	Ciudad de México	4ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+84	Claudia Pérez Rodríguez	MORENA	Tlaxcala	Distrito 3	Mayoría relativa	17 de diciembre del 2020	En funciones	
+85	Claudia Reyes Montiel	PRD	México	Distrito 18	Mayoría relativa	22 de diciembre del 2020	En funciones	
+86	Claudia Tello Espinosa	MORENA	Veracruz	Distrito 8	Mayoría relativa	17 de diciembre del 2020	En funciones	
+87	Claudia Valeria Yáñez Centeno y Cabrera	MORENA	Colima	Distrito 1	Mayoría relativa	17 de diciembre del 2020	En funciones	
+88	Clementina Marta Dekker Gómez	PT	Chiapas	Distrito 5	Mayoría relativa	15 de diciembre del 2020	En funciones	
+89	Cruz Juvenal Roa Sánchez	PRI	México	Distrito 36	Mayoría relativa	22 de diciembre del 2020	En funciones	
+90	Cuauhtli Fernando Badillo Moreno	MORENA	San Luis Potosí	2ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+91	Cynthia Iliana López Castro	PRI	Ciudad de México	4ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+92	Daniel Gutiérrez Gutiérrez	MORENA	Oaxaca	Distrito 10	Mayoría relativa	17 de diciembre del 2020	En funciones	
+93	David Bautista Rivera	MORENA	Puebla	4ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+94	David Orihuela Nava	MORENA	México	Distrito 23	Mayoría relativa	17 de diciembre del 2020	En funciones	
+95	Diego Eduardo Del Bosque Villarreal	MORENA	Coahuila	2ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+96	Dionicia Vázquez García	PT	México	Distrito 2	Mayoría relativa	15 de diciembre del 2020	En funciones	
+97	Dolores Padierna Luna	MORENA	Ciudad de México	Distrito 12	Mayoría relativa	17 de diciembre del 2020	En funciones	
+98	Dorheny García Cayetano	MORENA	Veracruz	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+99	Dulce Alejandra García Morlan	PAN	Oaxaca	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+100	Dulce María Corina Villegas Guarneros	MORENA	Veracruz	Distrito 15	Mayoría relativa	17 de diciembre del 2020	En funciones	
+101	Dulce María Méndez De La Luz Dauzón	MC	Veracruz	3ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+102	Éctor Jaime Ramírez Barba	PAN	Guanajuato	Distrito 5	Mayoría relativa	16 de diciembre del 2020	En funciones	
+103	Edelmiro Santiago Santos Díaz	MORENA	Nuevo León	2ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+104	Edgar Eduardo Arenas Madrigal	MORENA	México	Distrito 37	Mayoría relativa	17 de diciembre del 2020	En funciones	
+105	Edgar Guzmán Valdéz	PES	Puebla	Distrito 7	Mayoría relativa	16 de diciembre del 2020	En funciones	
+106	Ediltrudis Rodríguez Arellano	MORENA	Tabasco	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+107	Edith García Rosales	MORENA	Veracruz	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+108	Edith Marisol Mercado Torres	MORENA	México	5ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+109	Eduardo Zarzosa Sánchez	PRI	México	Distrito 9	Mayoría relativa	22 de diciembre del 2020	En funciones	
+110	Efraín Rocha Vega	MORENA	Chihuahua	1ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+111	Elba Lorena Torres Díaz	PT	Aguascalientes	Distrito 2	Mayoría relativa	15 de diciembre del 2020	En funciones	
+112	Eleuterio Arrieta Sánchez	MORENA	Veracruz	Distrito 13	Mayoría relativa	17 de diciembre del 2020	En funciones	
+113	Emeteria Claudia Martínez Aguilar	MORENA	Chiapas	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+114	Emilio Manzanilla Téllez	PT	México	Distrito 16	Mayoría relativa	16 de diciembre del 2020	En funciones	
+115	Emmanuel Reyes Carmona	MORENA	Guanajuato	Distrito 13	Mayoría relativa	22 de diciembre del 2020	En funciones	
+116	Enrique Ochoa Reza	PRI	Michoacán	5ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+117	Eraclio Rodríguez Gómez	PT	Chihuahua	Distrito 7	Mayoría relativa	18 de diciembre del 2020	En funciones	
+118	Erasmo González Robledo	MORENA	Tamaulipas	Distrito 7	Mayoría relativa	17 de diciembre del 2020	En funciones	
+119	Erika Mariana Rosas Uribe	MORENA	Sinaloa	1ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+120	Erika Vanessa Del Castillo Ibarra	MORENA	Ciudad de México	Distrito 1	Mayoría relativa	17 de diciembre del 2020	En funciones	
+121	Erik Isaac Morales Elvira	MORENA	Baja California	Distrito 7	Mayoría relativa	22 de diciembre del 2020	En funciones	
+122	Ernesto Alfonso Robledo Leal	PAN	Nuevo León	Distrito 11	Mayoría relativa	22 de diciembre del 2020	En funciones	
+123	Erwin Jorge Areizaga Uribe	MORENA	Baja California	Distrito 6	Mayoría relativa	22 de diciembre del 2020	En funciones	
+124	Esmeralda de los Ángeles Moreno Medina	PES	México	Distrito 26	Mayoría relativa	16 de diciembre del 2020	En funciones	
+125	Esteban Barajas Barajas	MORENA	Michoacán	Distrito 2	Mayoría relativa	17 de diciembre del 2020	En funciones	
+126	Estela Núñez Álvarez	MORENA	Tabasco	Distrito 1	Mayoría relativa	17 de diciembre del 2020	En funciones	
+127	Eulalio Juan Ríos Fararoni	MORENA	Veracruz	Distrito 20	Mayoría relativa	17 de diciembre del 2020	En funciones	
+128	Evaristo Lenin Pérez Rivera	SP	Coahuila	Distrito 1	Mayoría relativa	22 de diciembre del 2020	En funciones	
+129	Fabiola Raquel Guadalupe Loya Hernández	MC	Jalisco	Distrito 6	Mayoría relativa	16 de diciembre del 2020	En funciones	
+130	Feliciano Flores Anguiano	MORENA	Michoacán	Distrito 1	Mayoría relativa	17 de diciembre del 2020	En funciones	
+131	Felipe Fernando Macías Olvera	PAN	Querétaro	Distrito 4	Mayoría relativa	16 de diciembre del 2020	En funciones	
+132	Felipe Rafael Arvizu De la Luz	MORENA	México	Distrito 12	Mayoría relativa	17 de diciembre del 2020	En funciones	
+133	Fernando Donato De las Fuentes Hernández	PRI	Coahuila	7	Mayoría relativa	30 de diciembre del 2020	En funciones	
+134	Fernando Galindo Favela	PRI	Ciudad de México	4ª Circunscripción	Representación proporcional	21 de diciembre del 2020	En funciones	
+135	Fernando Luis Manzanilla Prieto	PES	Puebla	Distrito 12	Mayoría relativa	16 de diciembre del 2020	En funciones	
+136	Fernando Torres Graciano	PAN	Guanajuato	2ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+137	Flora Tania Cruz Santos	MORENA	Veracruz	Distrito 11	Mayoría relativa	17 de diciembre del 2020	En funciones	
+138	Fortunato Rivera Castillo	MORENA	Hidalgo	Distrito 1	Mayoría relativa	17 de diciembre del 2020	En funciones	
+139	Francisco Elizondo Garrido	MORENA	Nuevo León	2ª Circunscripción	Representación proporcional	18 de diciembre del 2020	En funciones	
+140	Francisco Favela Peñuñuri	PT	México	Distrito 5	Mayoría relativa	14 de diciembre del 2020	En funciones	
+141	Francisco Javier Borrego Adame	MORENA	Coahuila	Distrito 2	Mayoría relativa	17 de diciembre del 2020	En funciones	
+142	Francisco Javier Guzmán De la Torre	MORENA	Jalisco	1ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+143	Francisco Javier Huacus Esquivel	PT	Michoacán	Distrito 12	Mayoría relativa	15 de diciembre del 2020	En funciones	
+144	Francisco Javier Luévano Núñez	PAN	Aguascalientes	Distrito 1	Mayoría relativa	16 de diciembre del 2020	En funciones	
+145	Francisco Javier Ramírez Navarrete	MORENA	México	5ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+146	Francisco Javier Saldivar Camacho	PES	Ciudad de México	Distrito 7	Mayoría relativa	16 de diciembre del 2020	En funciones	
+147	Frida Alejandra Esparza Márquez	PRD	Zacatecas	2ª Circunscripción	Representación proporcional	21 de diciembre del 2020	En funciones	
+148	Frinné Azuara Yarzábal	PRI	San Luis Potosí	2ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+149	Geraldina Isabel Herrera Vega	MC	Jalisco	Distrito 10	Mayoría relativa	16 de diciembre del 2020	En funciones	
+150	Gloria Romero León	PAN	Hidalgo	5ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+151	Gonzalo Herrera Pérez	MORENA	Michoacán	Distrito 7	Mayoría relativa	17 de diciembre del 2020	En funciones	
+152	Graciela Sánchez Ortiz	MORENA	México	Distrito 21	Mayoría relativa	17 de diciembre del 2020	En funciones	
+153	Graciela Zavaleta Sánchez	MORENA	Oaxaca	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+154	Guadalupe Ramos Sotelo	MORENA	Ciudad de México	Distrito 24	Mayoría relativa	22 de diciembre del 2020	En funciones	
+155	Guadalupe Romo Romo	PAN	Jalisco	3	Mayoría relativa	28 de diciembre del 2020	En funciones	
+156	Gustavo Callejas Romero	MORENA	Hidalgo	Distrito 2	Mayoría relativa	17 de diciembre del 2020	En funciones	
+157	Gustavo Contreras Montes	MORENA	México	Distrito 8	Mayoría relativa	17 de diciembre del 2020	En funciones	
+158	Héctor Guillermo de Jesús Jiménez y Meneses	MORENA	Puebla	Distrito 13	Mayoría relativa	17 de diciembre del 2020	En funciones	
+159	Héctor Joel Villegas González	PES	Tamaulipas	Distrito 3	Mayoría relativa	16 de diciembre del 2020	En funciones	
+160	Héctor René Cruz Aparicio	PES	Baja California	Distrito 8	Mayoría relativa	16 de diciembre del 2020	En funciones	
+161	Héctor Serrano Cortés	PT	Ciudad de México	4ª Circunscripción	Representación proporcional	18 de diciembre del 2020	En funciones	
+162	Héctor Yunes Landa	PRI	Veracruz	3ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+163	Heriberto Marcelo Aguilar Castillo	MORENA	Sonora	Distrito 4	Mayoría relativa	17 de diciembre del 2020	En funciones	
+164	Hernán Salinas Wolberg	PAN	Nuevo León	Distrito 1	Mayoría relativa	16 de diciembre del 2020	En funciones	
+165	Higinio Del Toro Pérez	MC	Jalisco	Distrito 19	Mayoría relativa	16 de diciembre del 2020	En funciones	
+166	Hilda Patricia Ortega Nájera	MORENA	Durango	Distrito 4	Mayoría relativa	17 de diciembre del 2020	En funciones	
+167	Hildelisa González Morales	PT	Sonora	Distrito 7	Mayoría relativa	15 de diciembre del 2020	En funciones	
+168	Hirepan Maya Martínez	MORENA	Michoacán	5ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+169	Hortensia María Luisa Noroña Quezada	PRI	Jalisco	1ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+170	Hugo Rafael Ruiz Lustre	MORENA	Hidalgo	5ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+171	Idalia Reyes Miguel	MORENA	Guerrero	4ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+172	Ignacio Benjamín Campos Equihua	MORENA	Michoacán	Distrito 9	Mayoría relativa	17 de diciembre del 2020	En funciones	
+173	Inés Parra Juárez	MORENA	Puebla	Distrito 4	Mayoría relativa	17 de diciembre del 2020	En funciones	
+174	Iran Santiago Manuel	MORENA	Oaxaca	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+175	Irasema del Carmen Buenfil Díaz	PES	Campeche	Distrito 2	Mayoría relativa	16 de diciembre del 2020	En funciones	
+176	Irma Juan Carlos	MORENA	Oaxaca	Distrito 2	Mayoría relativa	17 de diciembre del 2020	En funciones	
+177	Irma María Terán Villalobos	PES	Sonora	1ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+178	Isabel Margarita Guerra Villareal	PAN	Nuevo León	2a Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+179	Ismael Alfredo Hernández Deras	PRI	Durango	1ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+180	Itzcóatl Tonatiuh Bravo Padilla	MC	Jalisco	1ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+181	Iván Arturo Rodríguez Rivera	PAN	México	5ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+182	Jacobo David Cheja Alfaro	MC	México	5ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+183	Jacquelina Martínez Juárez	PAN	Zacatecas	2ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+184	Jaime Humberto Pérez Bernabé	MORENA	Veracruz	Distrito 6	Mayoría relativa	17 de diciembre del 2020	En funciones	
+185	Jannet Tellez Infante	MORENA	Hidalgo	Distrito 7	Mayoría relativa	17 de diciembre del 2020	En funciones	
+186	Javier Ariel Hidalgo Ponce	MORENA	Ciudad de México	Distrito 10	Mayoría relativa	17 de diciembre del 2020	En funciones	
+187	Javier Julián Castañeda Pomposo	MORENA	Baja California	Distrito 6	Mayoría relativa	21 de diciembre del 2020	Licencia	
+188	Javier Manzano Salazar	MORENA	Guerrero	Distrito 5	Mayoría relativa	17 de diciembre del 2020	En funciones	
+189	Jesús Carlos Vidal Peniche	PVEM	Yucatán	Distrito 1	Mayoría relativa	18 de diciembre del 2020	En funciones	
+190	Jesús Fernando García Hernández	PT	Sinaloa	Distrito 3	Mayoría relativa	15 de diciembre del 2020	En funciones	
+191	Jesús Salvador Minor Mora	MORENA	Baja California	Distrito 1	Mayoría relativa	17 de diciembre del 2020	En funciones	
+192	Jesús Sergio Alcántara Núñez	PRI	México	5ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+193	Jorge Alcibíades García Lara	MC	Baja California	1ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+194	Jorge Arturo Argüelles Victorero	PES	Morelos	Distrito 4	Mayoría relativa	16 de diciembre del 2020	En funciones	
+195	Jorge Arturo Espadas Galván	PAN	Guanajuato	Distrito 11	Mayoría relativa	16 de diciembre del 2020	En funciones	
+196	Jorge Emilio González Martínez	PVEM	Ciudad de México	3ª Circunscripción	Representación proporcional	18 de diciembre del 2020	Licencia	
+197	Jorge Eugenio Russo Salido	MC	Sonora	1ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+198	Jorge Francisco Corona Méndez	PVEM	Quintana Roo	3ª Circunscripción	Representación proporcional	18 de diciembre del 2020	En funciones	
+199	Jorge Luis Montes Nieves	MORENA	Querétaro	Distrito 2	Mayoría relativa	17 de diciembre del 2020	En funciones	
+200	Jorge Luis Preciado Rodríguez	PAN	Colima	5ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+201	Jorge Romero Herrera	PAN	Ciudad de México	Distrito 4	Mayoría relativa	16 de diciembre del 2020	En funciones	
+202	José Ángel Sibaja Mendoza	MORENA	Chiapas	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+203	José Elías Lixa Abimerhi	PAN	Yucatán	Distrito 4	Mayoría relativa	16 de diciembre del 2020	En funciones	
+204	Josefina Salazar Báez	PAN	San Luis Potosí	Distrito 5	Mayoría relativa	16 de diciembre del 2020	En funciones	
+205	José Francisco Esquitin Alonso	PES	Puebla	Distrito 1	Mayoría relativa	16 de diciembre del 2020	En funciones	
+206	José Gerardo Rodolfo Fernández Noroña	PT	Ciudad de México	Distrito 4	Mayoría relativa	15 de diciembre del 2020	En funciones	
+207	José Guadalupe Aguilera Rojas	PRD	Michoacán	Distrito 11	Mayoría relativa	21 de diciembre del 2020	En funciones	
+208	José Guadalupe Ambrocio Gachuz	MORENA	Morelos	Distrito 5	Mayoría relativa	17 de diciembre del 2020	En funciones	
+209	José Isabel Trejo Reyes	PAN	Zacatecas	2ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+210	José Luis Elorza Flores	MORENA	Chiapas	Distrito 12	Mayoría relativa	17 de diciembre del 2020	En funciones	
+211	José Luis García Duque	PT	Nuevo León	Distrito 3	Mayoría relativa	15 de diciembre del 2020	En funciones	
+212	José Luis Montalvo Luna	PT	México	Distrito 39	Mayoría relativa	14 de diciembre del 2020	En funciones	
+213	José Mario Osuna Medina	PT	Sinaloa	Distrito 1	Mayoría relativa	15 de diciembre del 2020	En funciones	
+214	José Martín López Cisneros	PAN	Nuevo León	Distrito 10	Mayoría relativa	16 de diciembre del 2020	En funciones	
+215	José Ricardo Delsol Estrada	MORENA	San Luís Potosí	Distrito 4	Mayoría relativa	17 de diciembre del 2020	En funciones	
+216	José Rigoberto Mares Aguilar	PAN	Baja California Sur	1a Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+217	José Salvador Rosas Quintanilla	PAN	Tamaulipas	Distrito 1	Mayoría relativa	21 de diciembre del 2020	En funciones	
+218	Juana Carrillo Luna	MORENA	México	5ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+219	Juan Ángel Bautista Bravo	MORENA	México	Distrito 31	Mayoría relativa	17 de diciembre del 2020	En funciones	
+220	Juan Carlos Romero Hicks	PAN	Guanajuato	Distrito 4	Mayoría relativa	16 de diciembre del 2020	En funciones	
+221	Juan Enrique Farrera Esponda	MORENA	Chiapas	Distrito 10	Mayoría relativa	17 de diciembre del 2020	En funciones	
+222	Juan Francisco Espinoza Eguia	PRI	Nuevo León	Distrito 9	Mayoría relativa	22 de diciembre del 2020	En funciones	
+223	Juan Francisco Ramírez Salcido	MC	Jalisco	Distrito 14	Mayoría relativa	16 de diciembre del 2020	En funciones	
+224	Juan Israel Ramos Ruiz	MORENA	Guanajuato	2ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+225	Juanita Guerra Mena	MORENA	Morelos	Distrito 3	Mayoría relativa	17 de diciembre del 2020	En funciones	
+226	Juan José Canul Pérez	PRI	Yucatán	Distrito 5	Mayoría relativa	22 de diciembre del 2020	En funciones	
+227	Juan Martín Espinoza Cárdenas	MC	Jalisco	Distrito 17	Mayoría relativa	15 de diciembre del 2020	En funciones	
+228	Juan Martínez Flores	MORENA	Veracruz	Distrito 16	Mayoría relativa	17 de diciembre del 2020	En funciones	
+229	Juan Ortiz Guarneros	PRI	Veracruz	3ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+230	Juan Pablo Sánchez Rodríguez	MORENA	México	Distrito 20	Mayoría relativa	17 de diciembre del 2020	En funciones	
+231	Julieta García Zepeda	MORENA	Michoacán	5ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+232	Julieta Kristal Vences Valencia	MORENA	Puebla	Distrito 8	Mayoría relativa	17 de diciembre del 2020	En funciones	
+233	Julio Carranza Aréas	MORENA	Veracruz	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+234	Julio César Ángeles Mendoza	MORENA	Hidalgo	Distrito 5	Mayoría relativa	17 de diciembre del 2020	En funciones	
+235	Justino Eugenio Arriaga Rojas	PAN	Guanajuato	Distrito 8	Mayoría relativa	16 de diciembre del 2020	En funciones	
+236	Karen Ivette Audiffred Fernández	MORENA	Ciudad de México	Distrito 21	Mayoría relativa	17 de diciembre del 2020	En funciones	
+237	Karen Michel González Márquez	PAN	Guanajuato	Distrito 7	Mayoría relativa	16 de diciembre del 2020	En funciones	
+238	Karla Yuritzi Almazán Burgos	MORENA	México	Distrito 38	Mayoría relativa	17 de diciembre del 2020	En funciones	
+239	Katia Alejandra Castillo Lozano	MORENA	Jalisco	1ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+240	Kehila Abigail Ku Escalante	MC	Jalisco	Distrito 11	Mayoría relativa	22 de diciembre del 2020	En funciones	
+241	Laura Angélica Rojas Hernández	PAN	México	Distrito 5	Mayoría relativa	16 de diciembre del 2020	En funciones	
+242	Laura Barrera Fortoul	PRI	México	5ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+243	Laura Imelda Pérez Segura	MORENA	Jalisco	Distrito 16	Mayoría relativa	17 de diciembre del 2020	En funciones	
+244	Laura Martínez González	MORENA	Ciudad de México	4ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+245	Laura Mónica Guerra Navarro	MORENA	México	Distrito 7	Mayoría relativa	17 de diciembre del 2020	En funciones	
+246	Lenin Nelson Campos Córdova	PRI	San Luis Potosí	2ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+247	Leticia Arlett Aguilar Molina	MORENA	Chiapas	Distrito 9	Mayoría relativa	17 de diciembre del 2020	En funciones	
+248	Leticia Díaz Aguilar	MORENA	Ciudad de México	4ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+249	Leticia Mariana Gómez Ordaz	PVEM	México	5ª Circunscripción	Representación proporcional	18 de diciembre del 2020	En funciones	
+250	Lidia García Anaya	MORENA	Hidalgo	Distrito 6	Mayoría relativa	17 de diciembre del 2020	En funciones	
+251	Lidia Nallely Vargas Hernández	MORENA	San Luis Potosí	2ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+252	Lilia Villafuerte Zavala	PVEM	Guanajuato	Distrito 10	Mayoría relativa	18 de diciembre del 2020	En funciones	
+253	Limbert Iván de Jesús Interian Gallegos	MORENA	Yucatán	Distrito 3	Mayoría relativa	17 de diciembre del 2020	En funciones	
+254	Lizbeth Mata Lozano	PAN	Baja California	Distrito 1	Mayoría relativa	16 de diciembre del 2020	En funciones	
+255	Lizeth Amayrani Guerra Méndez	MORENA	Veracruz	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+256	Lorena del Socorro Jiménez Andrade	MORENA	Jalisco	Distrito 5	Mayoría relativa	17 de diciembre del 2020	En funciones	
+257	Lorena Villavicencio Ayala	MORENA	Ciudad de México	Distrito 16	Mayoría relativa	17 de diciembre del 2020	En funciones	
+258	Lorenia Iveth Valles Sampedro	MORENA	Sonora	Distrito 3	Mayoría relativa	17 de diciembre del 2020	En funciones	
+259	Lourdes Celenia Contreras González	MC	Jalisco	Distrito 13	Mayoría relativa	16 de diciembre del 2020	En funciones	
+260	Lourdes Erika Sánchez Martínez	PRI	Sinaloa	1ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+261	Lucía Flores Olivo	MORENA	Ciudad de México	4ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+262	Lucinda Sandoval Soberanes	MORENA	Sinaloa	1ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+263	Lucio De Jesús Jiménez	MORENA	Ciudad de México	5ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+264	Lucio Ernesto Palacios Cordero	MORENA	Ciudad de México	4ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+265	Luis Alberto Mendoza Acevedo	PAN	Ciudad de México	Distrito 15	Mayoría relativa	16 de diciembre del 2020	En funciones	
+266	Luis Eleusis Leónidas Córdova Morán	PRI	Puebla	4ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+267	Luis Enrique Martínez Ventura	PT	México	Distrito 32	Mayoría relativa	14 de diciembre del 2020	En funciones	
+268	Luis Enrique Miranda Nava	PRI	México	5ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+269	Luis Javier Alegre Salazar	MORENA	Quintana Roo	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+270	Luz Estefanía Rosas Martínez	MORENA	Ciudad de México	4ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+271	lván Arturo Pérez Negrón	MORENA	México	Distrito 24	Mayoría relativa	22 de diciembre del 2020	En funciones	
+272	Lyndiana Elizabeth Bugarín Cortés	PVEM	Zacatecas	Distrito 2	Mayoría relativa	18 de diciembre del 2020	En funciones	
+273	Ma. de Jesús García Guardado	MORENA	Zacatecas	2a Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+274	Ma. del Carmen Cabrera Lagunas	PES	Guerrero	Distrito 3	Mayoría relativa	15 de diciembre del 2020	En funciones	
+275	Madeleine Bonnafoux Alcaraz	PAN	Sonora	1ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+276	Ma. de los Ángeles Ayala Díaz	PAN	Guanajuato	Distrito 3	Mayoría relativa	16 de diciembre del 2020	En funciones	
+277	Ma. Eugenia Leticia Espinosa Rivas	PAN	Guanajuato	Distrito 14	Mayoría relativa	16 de diciembre del 2020	En funciones	
+278	Ma. Guadalupe Almaguer Pardo	PRD	San Luis Potosí	Distrito 6	Mayoría relativa	22 de diciembre del 2020	En funciones	
+279	Maiella Martha Gabriela Gómez Maldonado	MC	Puebla	Distrito 2	Mayoría relativa	16 de diciembre del 2020	En funciones	
+280	Manuela del Carmen Obrador Narváez	MORENA	Chiapas	Distrito 1	Mayoría relativa	17 de diciembre del 2020	En funciones	
+281	Manuel de Jesús Baldenebro Arredondo	PES	Sonora	Distrito 1	Mayoría relativa	16 de diciembre del 2020	En funciones	
+282	Manuel Gómez Ventura	MORENA	Veracruz	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+283	Manuel Huerta Martínez	PT	Guerrero	4ª Circunscripción	Representación proporcional	15 de diciembre del 2020	En funciones	
+284	Manuel López Castillo	MORENA	Sonora	1ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+285	Manuel Rodríguez González	MORENA	Tabasco	Distrito 4	Mayoría relativa	17 de diciembre del 2020	En funciones	
+286	Marcela Guillermina Velasco González	PRI	México	5ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+287	Marcelino Rivera Hernández	PAN	San Luis Potosí	Distrito 7	Mayoría relativa	16 de diciembre del 2020	En funciones	
+288	Marco Antonio Andrade Zavala	MORENA	Chiapas	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+289	Marco Antonio Carbajal Miranda	MORENA	Sonora	1ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+290	Marco Antonio Gómez Alcantar	PVEM	Sinaloa	1ª Circunscripción	Representación proporcional	21 de diciembre del 2020	En funciones	
+291	Marco Antonio González Reyes	MORENA	México	5ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+292	Marco Antonio Medina Pérez	MORENA	Veracruz	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+293	Marco Antonio Reyes Colín	MORENA	México	Distrito 40	Mayoría relativa	17 de diciembre del 2020	En funciones	
+294	Marcos Aguilar Vega	PAN	Querétaro	2ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+295	Margarita Flores Sánchez	PRI	Nayarit	1ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+296	Margarita García García	PT	Oaxaca	Distrito 3	Mayoría relativa	15 de diciembre del 2020	En funciones	
+297	María Alemán Muñoz Castillo	PRI	Querétaro	2ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+298	María Beatriz López Chávez	MORENA	Ciudad de México	4ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+299	María Bertha Espinoza Segura	MORENA	Veracruz	Distrito 3	Mayoría relativa	17 de diciembre del 2020	En funciones	
+300	María Chávez Pérez	MORENA	Michoacán	5ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+301	María de Jesús Rosete Sánchez	PT	Ciudad de México	Distrito 8	Mayoría relativa	15 de diciembre del 2020	En funciones	
+302	María del Carmen Bautista Peláez	MORENA	Oaxaca	Distrito 9	Mayoría relativa	17 de diciembre del 2020	En funciones	
+303	María de los Ángeles Gutiérrez Valdez	PAN	Chihuahua	Distrito 9	Mayoría relativa	16 de diciembre del 2020	En funciones	
+304	María de los Ángeles Huerta del Río	MORENA	México	Distrito 24	Mayoría relativa	17 de diciembre del 2020	En funciones	
+305	María del Pilar Ortega Martínez	PAN	Guanajuato	Distrito 6	Mayoría relativa	16 de diciembre del 2020	En funciones	
+306	María del Rosario Merlín García	MORENA	Guerrero	Distrito 9	Mayoría relativa	17 de diciembre del 2020	En funciones	
+307	María Elizabeth Díaz García	MORENA	México	Distrito 13	Mayoría relativa	17 de diciembre del 2020	En funciones	
+308	María Ester Alonzo Morales	PRI	Yucatán	Distrito 2	Mayoría relativa	22 de diciembre del 2020	En funciones	
+309	María Esther Mejía Cruz	MORENA	Chihuahua	Distrito 1	Mayoría relativa	17 de diciembre del 2020	En funciones	
+310	María Eugenia Hernández Pérez	MORENA	México	Distrito 11	Mayoría relativa	17 de diciembre del 2020	En funciones	
+311	María Geraldine Ponce Méndez	MORENA	Nayarit	Distrito 2	Mayoría relativa	22 de diciembre del 2020	En funciones	
+312	María Guadalupe Díaz Avilez	MORENA	México	Distrito 34	Mayoría relativa	17 de diciembre del 2020	En funciones	
+313	María Guadalupe Edith Castañeda Ortíz	MORENA	México	5ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+314	María Guadalupe Román Ávila	MORENA	México	Distrito 17	Mayoría relativa	17 de diciembre del 2020	En funciones	
+315	María Guillermina Alvarado Moreno	MORENA	Nuevo León	Distrito 2	Mayoría relativa	17 de diciembre del 2020	En funciones	
+316	María Isabel Alfaro Morales	MORENA	Hidalgo	Distrito 4	Mayoría relativa	17 de diciembre del 2020	En funciones	
+317	María Libier González Anaya	MC	Jalisco	1ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+318	María Liduvina Sandoval Mendoza	PAN	Colima	5ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+319	María Lucero Saldaña Pérez	PRI	Puebla	4ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+320	María Marivel Solís Barrera	MORENA	Hidalgo	5ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+321	Mariana Dunyaska García Rojas	PAN	Veracruz	Distrito 12	Mayoría relativa	16 de diciembre del 2020	En funciones	
+322	Mariana Rodríguez Mier y Terán	PRI	Tamaulipas	2ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+323	María Roselia Jiménez Pérez	PT	Chiapas	Distrito 8	Mayoría relativa	15 de diciembre del 2020	En funciones	
+324	María Teresa López Pérez	MORENA	Jalisco	1ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+325	María Teresa Marú Mejía	PT	México	Distrito 3	Mayoría relativa	15 de diciembre del 2020	En funciones	
+326	María Teresa Rebeca Rosa Mora Ríos	MORENA	México	22	Mayoría relativa	04 de enero del 2021	En funciones	
+327	María Wendy Briceño Zuloaga	MORENA	Sonora	Distrito 5	Mayoría relativa	17 de diciembre del 2020	En funciones	
+328	Maribel Aguilera Chairez	MORENA	Durango	Distrito 3	Mayoría relativa	17 de diciembre del 2020	En funciones	
+329	Maribel Martínez Ruiz	PT	Oaxaca	3ª Circunscripción	Representación proporcional	15 de diciembre del 2020	En funciones	
+330	Maricruz Roblero Gordillo	PT	Chiapas	Distrito 13	Mayoría relativa	15 de diciembre del 2020	En funciones	
+331	Mario Alberto Ramos Tamez	PAN	Tamaulipas	Distrito 5	Mayoría relativa	16 de diciembre del 2020	En funciones	
+332	Mario Alberto Rodríguez Carrillo	MC	Jalisco	Distrito 4	Mayoría relativa	16 de diciembre del 2020	En funciones	
+333	Mario Ismael Moreno Gil	MORENA	Baja California	Distrito 5	Mayoría relativa	17 de diciembre del 2020	En funciones	
+334	Mario Mata Carrasco	PAN	Chihuahua	Distrito 5	Mayoría relativa	22 de diciembre del 2020	En funciones	
+335	Martha Angélica Zamudio Macías	MC	Jalisco	1ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+336	Martha Elisa González Estrada	PAN	Aguascalientes	Distrito 3	Mayoría relativa	16 de diciembre del 2020	En funciones	
+337	Martha Estela Romo Cuéllar	PAN	Jalisco	Distrito 2	Mayoría relativa	16 de diciembre del 2020	En funciones	
+338	Martha Huerta Hernández	PT	Puebla	Distrito 5	Mayoría relativa	15 de diciembre del 2020	En funciones	
+339	Martha Lizeth Noriega Galaz	MORENA	Baja California	Distrito 2	Mayoría relativa	22 de diciembre del 2020	En funciones	
+340	Martha Olivia García Vidaña	MORENA	Durango	Distrito 1	Mayoría relativa	17 de diciembre del 2020	En funciones	
+341	Martha Robles Ortiz	MORENA	México	Distrito 29	Mayoría relativa	17 de diciembre del 2020	En funciones	
+342	Martina Cazarez Yañez	MORENA	San Luis Potosí	2ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+343	Mary Carmen Bernal Martínez	PT	Michoacán	Distrito 3	Mayoría relativa	15 de diciembre del 2020	En funciones	
+344	Ma. Sara Rocha Medina	PRI	San Luis Potosí	Distrito 1	Mayoría relativa	22 de diciembre del 2020	En funciones	
+345	Mauricio Alonso Toledo Gutiérrez	PT	Ciudad de México	4ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+346	Maximino Alejandro Candelaria	MORENA	Ciudad de México	4ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+347	Melba Nelia Farías Zambrano	MORENA	Coahuila	Distrito 3	Mayoría relativa	17 de diciembre del 2020	En funciones	
+348	Merary Villegas Sánchez	MORENA	Sinaloa	Distrito 7	Mayoría relativa	17 de diciembre del 2020	En funciones	
+349	Miguel Alonso Riggs Baeza	PAN	Chihuahua	Distrito 6	Mayoría relativa	16 de diciembre del 2020	En funciones	
+350	Miguel Ángel Chico Herrera	MORENA	Guanajuato	2ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+351	Miguel Ángel Jáuregui Montes de Oca	MORENA	Ciudad de México	Distrito 3	Mayoría relativa	17 de diciembre del 2020	En funciones	
+352	Miguel Ángel Márquez González	MORENA	Jalisco	1ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+353	Miguel Pável Jarero Velázquez	MORENA	Nayarit	Distrito 1	Mayoría relativa	17 de diciembre del 2020	En funciones	
+354	Miguel Prado de los Santos	MORENA	Chiapas	Distrito 7	Mayoría relativa	21 de diciembre del 2020	En funciones	
+355	Mildred Concepción Ávila Vera	MORENA	Quintana Roo	Distrito 3	Mayoría relativa	17 de diciembre del 2020	En funciones	
+356	Mirna Zabeida Maldonado Tapia	MORENA	Zacatecas	Distrito 1	Mayoría relativa	17 de diciembre del 2020	En funciones	
+357	Miroslava Sánchez Galván	MORENA	Coahuila	2ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+358	Mirtha Iliana Villalvazo Amaya	MORENA	Nayarit	Distrito 3	Mayoría relativa	17 de diciembre del 2020	En funciones	
+359	Moisés Ignacio Mier Velazco	MORENA	Puebla	4ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+360	Mónica Bautista Rodríguez	PRD	México	5ª Circunscripción	Representación proporcional	18 de diciembre del 2020	En funciones	
+361	Nancy Claudia Reséndiz Hernández	PES	México	Distrito 41	Mayoría relativa	16 de diciembre del 2020	En funciones	
+362	Nancy Yadira Santiago Marcos	MORENA	Sinaloa	Distrito 5	Mayoría relativa	17 de diciembre del 2020	En funciones	
+363	Nayeli Arlen Fernández Cruz	MORENA	Ciudad de México	4ª Circunscripción	Representación proporcional	18 de diciembre del 2020	En funciones	
+364	Nayeli Salvatori Bojalil	PES	Puebla	Distrito 10	Mayoría relativa	16 de diciembre del 2020	En funciones	
+365	Nelly Carrasco Godinez	MORENA	México	Distrito 4	Mayoría relativa	17 de diciembre del 2020	En funciones	
+366	Nelly Maceda Carrera	PT	Puebla	Distrito14	Mayoría relativa	18 de diciembre del 2020	En funciones	
+367	Nohemí Alemán Hernández	MORENA	Tamaulipas	2ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+368	Norma Guel Saldívar	PRI	Aguascalientes	2ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+369	Olegaria Carrazco Macías	MORENA	Sinaloa	Distrito 6	Mayoría relativa	17 de diciembre del 2020	En funciones	
+370	Olga Juliana Elizondo Guerra	PT	Tamaulipas	Distrito 2	Mayoría relativa	15 de diciembre del 2020	En funciones	
+371	Olga Patricia Sosa Ruiz	PES	Tamaulipas	Distrito 8	Mayoría relativa	16 de diciembre del 2020	En funciones	
+372	Oscar Bautista Villegas	PRI	San Luis Potosí	Distrito 3	Mayoría relativa	22 de diciembre del 2020	En funciones	
+373	Oscar Daniel Martínez Terrazas	PAN	Morelos	4ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+374	Oscar Eugenio Gutiérrez Camacho	MORENA	Ciudad de México	Distrito13	Mayoría relativa	17 de diciembre del 2020	En funciones	
+375	Óscar González Yáñez	PT	México	Distrito 27	Mayoría relativa	16 de diciembre del 2020	En funciones	
+376	Oscar Jiménez Rayón	PRI	México	5ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+377	Oscar Rafael Novella Macías	MORENA	Zacatecas	2ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+378	Pablo Gómez Álvarez	MORENA	Ciudad de México	Distrito 23	Mayoría relativa	17 de diciembre del 2020	En funciones	
+379	Pablo Guillermo Angulo Briceño	PRI	Campeche	3ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+380	Paola Tenorio Adame	MORENA	Veracruz	Distrito 19	Mayoría relativa	17 de diciembre del 2020	En funciones	
+381	Patricia del Carmen De la Cruz Delucio	MORENA	Chiapas	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+382	Patricia Terrazas Baca	PAN	Chihuahua	1ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+383	Paulo César Juárez Segura	PRI	México	5a Circunscripción	Mayoría relativa	23 de diciembre del 2020	Suplente	
+Notas: Se publica la Carta de Intención para efectos de Transparencia, de conformidad con lo dispuesto en la normatividad vigente y aplicable al proceso electoral 2020 - 2021.
+384	Pedro Daniel Abasolo Sánchez	PT	México	5ª Circunscripción	Representación proporcional	21 de diciembre del 2020	En funciones	
+385	Pedro Pablo Treviño Villarreal	PRI	Nuevo León	2ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+386	Pilar Lozano Mac Donald	MC	Nuevo León	2ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+387	Porfirio Muñoz Ledo	MORENA	Ciudad de México	4ª Circunscripción	Representación proporcional	15 de diciembre del 2020	En funciones	
+388	Rafael Hernández Villalpando	MORENA	Veracruz	Distrito 10	Mayoría relativa	15 de diciembre del 2020	En funciones	
+389	Raúl Eduardo Bonifaz Moedano	MORENA	Chiapas	Distrito 6	Mayoría relativa	17 de diciembre del 2020	En funciones	
+390	Raúl Ernesto Sánchez Barrales Zavalza	PT	México	Distrito 15	Mayoría relativa	15 de diciembre del 2020	En funciones	
+391	Reginaldo Sandoval Flores	PT	Michoacán	5ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+392	René Juárez Cisneros	PRI	Guerrero	4ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+393	Reyna Celeste Ascensio Ortega	MORENA	Michoacán	5ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+394	Ricardo Aguilar Castillo	PRI	México	Distrito 1	Mayoría relativa	22 de diciembre del 2020	En funciones	
+395	Ricardo De la Peña Marshall	PES	Tabasco	Distrito 6	Mayoría relativa	15 de diciembre del 2020	En funciones	
+396	Ricardo Francisco Exsome Zapata	MORENA	Veracruz	Distrito 4	Mayoría relativa	17 de diciembre del 2020	En funciones	
+397	Ricardo García Escalante	PAN	Veracruz	Distrito 1	Mayoría relativa	16 de diciembre del 2020	En funciones	
+398	Ricardo Villareal García	PAN	Guanajuato	Distrito 2	Mayoría relativa	16 de diciembre del 2020	En funciones	
+399	Roberto Ángel Domínguez Rodríguez	MORENA	México	Distrito 28	Mayoría relativa	17 de diciembre del 2020	En funciones	
+400	Roberto Antonio Rubio Montejo	PVEM	Chiapas	Distrito 11	Mayoría relativa	18 de diciembre del 2020	En funciones	
+401	Rocío Barrera Badillo	MORENA	Ciudad de México	Distrito 11	Mayoría relativa	17 de diciembre del 2020	En funciones	
+402	Rocío del Pilar Villarauz Martínez	MORENA	Ciudad de México	4ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+403	Roque Luis Rabelo Velasco	MORENA	Chiapas	Distrito 4	Mayoría relativa	17 de diciembre del 2020	En funciones	
+404	Rosalba Valencia Cruz	MORENA	Veracruz	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+405	Rosalinda Domínguez Flores	MORENA	Oaxaca	Distrito 7	Mayoría relativa	17 de diciembre del 2020	En funciones	
+406	Rosa María Bayardo Cabrera	MORENA	Colima	Distrito 2	Mayoría relativa	17 de diciembre del 2020	En funciones	
+407	Rubén Ignacio Moreira Valdez	PRI	Coahuila	2ª Circunscripción	Representación proporcional	18 de diciembre del 2020	En funciones	
+408	Rubén Terán Águila	MORENA	Tlaxcala	Distrito 2	Mayoría relativa	17 de diciembre del 2020	En funciones	
+409	Ruth Salinas Reyes	MC	México	5ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+410	Samuel Calderón Medina	PES	Morelos	4 ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+411	Samuel Herrera Chávez	MORENA	Zacatecas	Distrito 4	Mayoría relativa	17 de diciembre del 2020	En funciones	
+412	Sandra Paola González Castañeda	MORENA	Nuevo León	Distrito 12	Mayoría relativa	17 de diciembre del 2020	En funciones	
+413	Sandra Simey Olvera Bautista	MORENA	Hidalgo	Distrito 3	Mayoría relativa	17 de diciembre del 2020	En funciones	
+414	Santiago González Soto	PT	Nuevo León	Distrito 5	Mayoría relativa	15 de diciembre del 2020	En funciones	
+415	Sarai Núñez Cerón	PAN	Guanajuato	Distrito 14	Mayoría relativa	16 de diciembre del 2020	En funciones	
+416	Sergio Carlos Gutiérrez Luna	MORENA	México	5a Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+417	Sergio Mayer Bretón	MORENA	Ciudad de México	Distrito 6	Mayoría relativa	22 de diciembre del 2020	En funciones	
+418	Sergio Pérez Hernández	MORENA	México	5ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+419	Silvano Garay Ulloa	PT	Tlaxcala	4ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+420	Silvia Guadalupe Garza Galván	PAN	Coahuila	2a. Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+421	Socorro Bahena Jiménez	MORENA	México	5a Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+422	Socorro Irma Andazola Gómez	MORENA	Baja California	Distrito 4	Mayoría relativa	17 de diciembre del 2020	En funciones	
+423	Sonia Rocha Acosta	PAN	Querétaro	Distrito 1	Mayoría relativa	16 de diciembre del 2020	En funciones	
+424	Soraya Pérez Munguía	PRI	Tabasco	3ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+425	Susana Beatriz Cuaxiloa Serrano	MORENA	Puebla	4a Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+426	Susana Cano González	MORENA	México	5a Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+427	Sylvia Violeta Garfías Cedillo	PAN	Aguascalientes	2a Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+428	Teófilo Manuel García Corpus	MORENA	Oaxaca	3ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+429	Teresita de Jesús Vargas Meraz	MORENA	Chihuahua	Distrito 2	Mayoría relativa	18 de diciembre del 2020	En funciones	
+430	Ulises García Soto	MORENA	Chihuahua	Distrito 1	Mayoría relativa	17 de diciembre del 2020	En funciones	
+431	Ulises Murguía Soto	MORENA	México	Distrito 19	Mayoría relativa	17 de diciembre del 2020	En funciones	
+432	Valentín Reyes López	MORENA	Veracruz	Distrito 17	Mayoría relativa	17 de diciembre del 2020	En funciones	
+433	Verónica Beatriz Juárez Piña	PRD	Jalisco	1a Crcunscricpción	Representación proporcional	23 de diciembre del 2020	En funciones	
+434	Verónica María Sobrado Rodríguez	PAN	Puebla	4ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+435	Verónica Ramos Cruz	MORENA	Jalisco	1ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+436	Vicente Alberto Onofre Vázquez	MORENA	México	Distrito 33	Mayoría relativa	22 de diciembre del 2020	En funciones	
+437	Vicente Javier Verástegui Ostos	PAN	Tamaulipas	Distrito 6	Mayoría relativa	16 de diciembre del 2020	En funciones	
+438	Víctor Adolfo Mojica Wences	MORENA	Guerrero	Distrito 1	Mayoría relativa	17 de diciembre del 2020	En funciones	
+439	Víctor Blas López	MORENA	Oaxaca	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+440	Víctor Gabriel Varela López	MORENA	Ciudad de México	Distrito 22	Mayoría relativa	17 de diciembre del 2020	En funciones	
+441	Víctor Manuel Pérez Díaz	PAN	Nuevo León	2ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+442	Virginia Merino García	MORENA	Oaxaca	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+443	Xavier Azuara Zúñiga	PAN	San Luis Potosí	2ª Circunscripción	Representación proporcional	16 de diciembre del 2020	En funciones	
+444	Ximena Puente De La Mora	PRI	Colima	5ª Circunscripción	Representación proporcional	22 de diciembre del 2020	En funciones	
+445	Xochitl Nashielly Zagal Ramírez	MORENA	México	Distrito 7	Mayoría relativa	23 de diciembre del 2020	Licencia	
+446	Yolanda Guerrero Barrera	MORENA	Michoacán	Distrito 5	Mayoría relativa	17 de diciembre del 2020	En funciones	
+447	Zaira Ochoa Valdivia	MORENA	Veracruz	3ª Circunscripción	Representación proporcional	17 de diciembre del 2020	En funciones	
+448	Zulma Espinoza Mata	PVEM	Nuevo León	2ª Circunscripción	Representación proporcional	18 de diciembre del 2020	En funciones	
