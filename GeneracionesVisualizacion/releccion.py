@@ -12,8 +12,8 @@ dfDiputadosRel=pd.read_csv("dipReelecc.csv",encoding="utf-8")
 dfFiltro=pd.read_csv("diputados2018.csv",encoding="utf-8")
 
 dfTotal=pd.merge(dfLegisFechasNac,dfDiputadosRel,on="Nombre",how="outer")
-#export_csv = dfTotal.to_csv ("totalReleccion.csv",index = None, header=True, encoding="utf-8-sig")
+export_csv = dfTotal.to_csv ("totalReleccion.csv",index = None, header=True, encoding="utf-8-sig")
 
 
 dfFiltroTotal=pd.merge(dfFiltro,dfTotal,on="Nombre")
-export_csv = dfBdTotal.to_csv ("resFinal.csv",index = None, header=True, encoding="utf-8-sig")
+#export_csv = dfBdTotal.to_csv ("resFinal.csv",index = None, header=True, encoding="utf-8-sig")
