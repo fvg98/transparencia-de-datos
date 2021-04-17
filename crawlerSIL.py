@@ -55,10 +55,28 @@ def limpiezaPerfil(sublista, subcategorias):
         res[subcategorias[i-1]+1:subcategorias[i]] = [" ".join(res[subcategorias[i-1]+1:subcategorias[i]])]
     return res
 
+"""
 def creaCURP(nombre):
     section = re.findall(':(.*)por', nombre)
     lista_iniciales = re.findall(r"([^\W])(?:[^\W]+)", section[0])
     return "".join(lista_iniciales)
+"""
+
+def creaCURP(nombre):
+    section = re.findall(':(.*)por', nombre)
+    nom = section[0]
+    curp = nom.replace('.', '')
+    curp = nom.replace('-', '')
+    curp = curp.replace(' ', '')
+    curp = curp.lower()
+    curp = curp.replace('á', 'a')
+    curp = curp.replace('é', 'e')
+    curp = curp.replace('í', 'i')
+    curp = curp.replace('ó', 'o')
+    curp = curp.replace('ú', 'u')
+    secciones = curp.split(',')
+    nombreordenado = secciones[1]+secciones[0]
+    return nombreordenado
 
 def creaDicc(a):
     ite = iter(a)
