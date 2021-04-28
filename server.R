@@ -138,21 +138,6 @@ server <- function(session, input, output) {
     )
   }) 
   ###########################################
-  # test
-  Animals <- c("giraffes", "orangutans", "monkeys")
-  SF_Zoo <- c(20, 14, 23)
-  LA_Zoo <- c(12, 18, 29)
-  data <- data.frame(Animals, SF_Zoo, LA_Zoo)
-  
-  output$test <- renderPlotly({
-    fig <- plot_ly(data, x = ~Animals, y = ~SF_Zoo, type = 'bar', name = 'SF Zoo')
-    fig <- fig %>% add_trace(y = ~LA_Zoo, name = 'LA Zoo')
-    fig <- fig %>% layout(yaxis = list(title = 'Count'), barmode = 'stack') 
-      
-    
-    fig <- fig %>% config(modeBarButtons = list(list('toImage'), list('resetScale2d')), displaylogo = F)
-  })
-  
   
 }
 
