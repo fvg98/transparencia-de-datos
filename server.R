@@ -4,8 +4,8 @@ library(plotly)
 
 ##########################################
 # Data loading
-gen_df <- read.csv("gen2018.csv")
-gender_df <- read.csv("bdFinalDip.csv", encoding = "latin1")
+gen_df <- read.csv("Dashboard-data/gen2018.csv")
+gender_df <- read.csv("Dashboard-data/bdFinalDip.csv", encoding = "latin1")
 
 ##########################################
 # Server
