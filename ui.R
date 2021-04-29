@@ -138,6 +138,6 @@ navbarPage(theme = shinytheme("flatly"),
            )
 
                                 
-                     ##### prueba ####         
+                     ##### prueba ####         ## prueba 2 ##
                                 
               
