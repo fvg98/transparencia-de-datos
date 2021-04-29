@@ -21,6 +21,53 @@ server <- function(session, input, output) {
   })
   ###########################################
   # generaciones
+  observe({
+    if (input$selectall_gener > 0) {
+      if (input$selectall_gener %% 2 == 0){
+        updateCheckboxGroupInput(session = session, 
+                                 inputId = "partySelect_2",
+                                 choices = list(
+                                   "PRD" = 'PRD',
+                                   "MC" = 'MC',
+                                   "PES" = 'PES',
+                                   "MORENA" = 'MORENA',
+                                   "PRI" = 'PRI',
+                                   "PAN" = 'PAN',
+                                   "PT" = 'PT',
+                                   "PVEM" = 'PVEM',
+                                   "Sin Partido" = 'Sin Partido'
+                                 ),
+                                 selected = c(choices = list(
+                                   "PRD" = 'PRD',
+                                   "MC" = 'MC',
+                                   "PES" = 'PES',
+                                   "MORENA" = 'MORENA',
+                                   "PRI" = 'PRI',
+                                   "PAN" = 'PAN',
+                                   "PT" = 'PT',
+                                   "PVEM" = 'PVEM',
+                                   "Sin Partido" = 'Sin Partido'
+                                 ))
+        )
+        
+      } else {
+        updateCheckboxGroupInput(session = session, 
+                                 inputId = "partySelect_2",
+                                 choices = list(
+                                   "PRD" = 'PRD',
+                                   "MC" = 'MC',
+                                   "PES" = 'PES',
+                                   "MORENA" = 'MORENA',
+                                   "PRI" = 'PRI',
+                                   "PAN" = 'PAN',
+                                   "PT" = 'PT',
+                                   "PVEM" = 'PVEM',
+                                   "Sin Partido" = 'Sin Partido'
+                                 ),
+                                 selected = c())
+        
+      }}
+  })
   gen_df[nrow(gen_df)-1,'Partido'] <- 'Sin Partido'
   xorder1 <- list(categoryorder = 'array', 
                   categoryarray = c('PRI', 'PT', 'PRD', 'PVEM', 'MORENA', 'MC', 'PAN', 'PES', 'Sin Partido'))
@@ -81,6 +128,55 @@ server <- function(session, input, output) {
     a <- subset(prop_part, Partido  %in% input$partySelect)
     return(a)
   })
+  # Botón de selección/deselección 
+  observe({
+    if (input$selectall_party > 0) {
+      if (input$selectall_party %% 2 == 0){
+        updateCheckboxGroupInput(session = session, 
+                                 inputId = "partySelect",
+                                 choices = list(
+                                   "PRD" = 'PRD',
+                                   "MC" = 'MC',
+                                   "PES" = 'PES',
+                                   "MORENA" = 'MORENA',
+                                   "PRI" = 'PRI',
+                                   "PAN" = 'PAN',
+                                   "PT" = 'PT',
+                                   "PVEM" = 'PVEM',
+                                   "Sin Partido" = 'Sin Partido'
+                                 ),
+                                 selected = c(choices = list(
+                                   "PRD" = 'PRD',
+                                   "MC" = 'MC',
+                                   "PES" = 'PES',
+                                   "MORENA" = 'MORENA',
+                                   "PRI" = 'PRI',
+                                   "PAN" = 'PAN',
+                                   "PT" = 'PT',
+                                   "PVEM" = 'PVEM',
+                                   "Sin Partido" = 'Sin Partido'
+                                 ))
+        )
+        
+      } else {
+        updateCheckboxGroupInput(session = session, 
+                                 inputId = "partySelect",
+                                 choices = list(
+                                   "PRD" = 'PRD',
+                                   "MC" = 'MC',
+                                   "PES" = 'PES',
+                                   "MORENA" = 'MORENA',
+                                   "PRI" = 'PRI',
+                                   "PAN" = 'PAN',
+                                   "PT" = 'PT',
+                                   "PVEM" = 'PVEM',
+                                   "Sin Partido" = 'Sin Partido'
+                                 ),
+                                 selected = c())
+        
+      }}
+  })
+  
   output$gender <- renderPlotly({
     fig <- plot_ly(type = 'bar', orientation = 'h')
     for (i in input$genderSelect) {
@@ -105,10 +201,64 @@ server <- function(session, input, output) {
   muj_stud$tgt <- c(2,4,3,11,5,8,10,6,9,7)
   node_x <- c(0,0,1,1,1,1,1,1,1,1,1,1) 
   node_y <- c(0,1,-10:-1)
-  colors <- c('C7FFA9','#E4A9FF','#2424FF','#2477FF','#248EFF','#249FFF',
+  colors <- c('#C7FFA9','#E4A9FF','#2424FF','#2477FF','#248EFF','#249FFF',
               '#24B3FF','#24C7FF','#24DEFF','#24F8FF','#24FFF8','#24FFEE')
-  
+  # Botón de selección/deselección 
+  observe({
+    if (input$selectall_sankey > 0) {
+      if (input$selectall_sankey %% 2 == 0){
+        updateCheckboxGroupInput(session = session, 
+                                 inputId = "schoolSelect",
+                                 choices = list("Doctorado" = 'Doctorado',
+                                                "Maestría" = 'Maestría',
+                                                "Licenciatura" = 'Licenciatura',
+                                                "Pasante/Licenciatura trunca" = 'Pasante/Licenciatura trunca',
+                                                "Profesor Normalista" = 'Profesor Normalista',
+                                                "Técnico" = "Técnico",
+                                                "Preparatoria" = "Preparatoria",
+                                                "Secundaria" = 'Secundaria',
+                                                "Primaria" = "Primaria",
+                                                "No disponible" = 'No disponible'
+                                                ),
+                                 selected = c(choices = list("Doctorado" = 'Doctorado',
+                                                             "Maestría" = 'Maestría',
+                                                             "Licenciatura" = 'Licenciatura',
+                                                             "Pasante/Licenciatura trunca" = 'Pasante/Licenciatura trunca',
+                                                             "Profesor Normalista" = 'Profesor Normalista',
+                                                             "Técnico" = "Técnico",
+                                                             "Preparatoria" = "Preparatoria",
+                                                             "Secundaria" = 'Secundaria',
+                                                             "Primaria" = "Primaria",
+                                                             "No disponible" = 'No disponible'
+                                 ))
+                                 )
+        
+      } else {
+        updateCheckboxGroupInput(session = session, 
+                                 inputId = "schoolSelect",
+                                 choices = list("Doctorado" = 'Doctorado',
+                                                "Maestría" = 'Maestría',
+                                                "Licenciatura" = 'Licenciatura',
+                                                "Pasante/Licenciatura trunca" = 'Pasante/Licenciatura trunca',
+                                                "Profesor Normalista" = 'Profesor Normalista',
+                                                "Técnico" = "Técnico",
+                                                "Preparatoria" = "Preparatoria",
+                                                "Secundaria" = 'Secundaria',
+                                                "Primaria" = "Primaria",
+                                                "No disponible" = 'No disponible'
+                                 ),
+                                 selected = c())
+        
+      }}
+  })
+  # Plot
   output$gender_sankey <- renderPlotly({
+    hom_stud <- hom_stud[hom_stud$UltimoGradoEstudios %in% input$schoolSelect,]
+    muj_stud <- muj_stud[muj_stud$UltimoGradoEstudios %in% input$schoolSelect,]
+    node_x <- c(node_x[hom_stud$UltimoGradoEstudios %in% input$schoolSelect])
+    node_y <- c(node_y[hom_stud$UltimoGradoEstudios %in% input$schoolSelect])
+    colors <- c(colors[hom_stud$UltimoGradoEstudios %in% input$schoolSelect])
+    
     fig <- plot_ly(
       type = "sankey",
       orientation = "h",
@@ -135,7 +285,7 @@ server <- function(session, input, output) {
       font = list(
         size = 10
       )
-    )
+    ) %>% config(modeBarButtons = list(list('toImage'), list('resetScale2d')), displaylogo = F)
   }) 
   ###########################################
   

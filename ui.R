@@ -7,10 +7,14 @@ library(plotly)
 navbarPage(theme = shinytheme("flatly"),
            title = tags$a(href='http://datalabitam.com/index.html',
                           tags$img(src='logo_2.png',height=37, align = "center")),
+           ###################################################
+           # Panel: Visualizaciones
            tabPanel("Visualizaciones",titlePanel(div(windowTitle = "Landing page",
                                                      img(src = "INE.png", width = "20%", class = "bg"),
                                                      "Datalab - Transparencia legislativa")),tags$br(),
                     tabsetPanel(
+                      ###################################################
+                      # Género
                       tabPanel("Género",
                                fluidPage(titlePanel(div(p(strong("Paridad de género por partido")))),
                                          sidebarLayout(
@@ -38,7 +42,8 @@ navbarPage(theme = shinytheme("flatly"),
                                                                            selected = c('PRD','MC','PES',
                                                                                         'MORENA','PRI','PAN',
                                                                                         'PT','PVEM','Sin Partido')
-                                                                           )
+                                                                           ),
+                                                        actionButton("selectall_party", label="Seleccionar/Eliminar selección")
                                                         ),
                                            mainPanel(plotlyOutput("gender", width = 450))
                                            )
@@ -60,12 +65,15 @@ navbarPage(theme = shinytheme("flatly"),
                                                                                        selected = c('Doctorado','Maestría',"Licenciatura","Pasante/Licenciatura trunca",
                                                                                                     "Preparatoria","Profesor Normalista", "Técnico","Secundaria",
                                                                                                     "Primaria","No disponible")
-                                                                                       )
+                                                                                       ),
+                                                                    actionButton("selectall_sankey", label="Seleccionar/Eliminar selección")
                                                                     ),
-                                                       mainPanel(plotlyOutput("gender_sankey", width = 500))
+                                                       mainPanel(plotlyOutput("gender_sankey", width = 600))
                                                        )
                                          )
                                ),
+                      ###################################################
+                      # Generaciones
                       tabPanel("Generaciones",
                                fluidPage(titlePanel(div(p(strong("¿De qué generación son tus representantes?")))),
                                          sidebarLayout(
@@ -83,20 +91,26 @@ navbarPage(theme = shinytheme("flatly"),
                                                                            selected = c('PRD','MC','PES',
                                                                                         'MORENA','PRI','PAN',
                                                                                         'PT','PVEM','Sin Partido')
-                                                                           )
+                                                                           ), 
+                                                        actionButton("selectall_gener", label="Seleccionar/Eliminar selección"),
+                                                        width = 3
                                                         ),
                                            mainPanel(splitLayout(cellWidths = c("50%", "50%"),
                                                                  plotlyOutput("generaciones_count", 
-                                                                              width = 445),
+                                                                              width = 425),
                                                                  plotlyOutput("generaciones_prcnt", 
-                                                                              width = 445)
-                                                                 )
+                                                                              width = 425)
+                                                                 ),
+                                                     width = 9
                                                      )
                                            )
                                          )
                                )
     
-                      )),
+                      )
+                    ),
+           ###################################################
+           # Panel: Código
            tabPanel("Código",titlePanel(div(windowTitle = "Landing page",
                                             img(src = "INE.png", width = "20%", class = "bg"),
                                             "Aqui vendría una descripción.")),tags$br(),
@@ -107,8 +121,22 @@ navbarPage(theme = shinytheme("flatly"),
                             )
                         ))
                       )
+                    ),
+           ###################################################
+           # Panel: Bases de Datos
+           tabPanel("Bases de Datos",titlePanel(div(windowTitle = "Landing page",
+                                            img(src = "INE.png", width = "20%", class = "bg"),
+                                            "Aqui vendría otra descripción.")),tags$br(),
+                    tabsetPanel(
+                      tabPanel("Prueba",fluidRow(
+                        
+                        ))
                     )
            )
+           
+           ###################################################
+           )
+
                                 
                                 
                                 
