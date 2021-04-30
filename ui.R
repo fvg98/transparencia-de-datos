@@ -16,7 +16,7 @@ navbarPage(theme = shinytheme("flatly"),
                       ###################################################
                       # Género
                       tabPanel("Género",
-                               fluidPage(titlePanel(div(p(strong("Paridad de género por partido")))),
+                               fluidPage(titlePanel(div(p(strong("Paridad de género en diputados por partido")))),
                                          sidebarLayout(
                                            sidebarPanel(checkboxGroupInput("genderSelect", 
                                                                            h4("Seleccione los géneros a mostrar"),
@@ -75,7 +75,7 @@ navbarPage(theme = shinytheme("flatly"),
                       ###################################################
                       # Generaciones
                       tabPanel("Generaciones",
-                               fluidPage(titlePanel(div(p(strong("¿De qué generación son tus representantes?")))),
+                               fluidPage(titlePanel(div(p(strong("¿De qué generación son tus diputados?")))),
                                          sidebarLayout(
                                            sidebarPanel(checkboxGroupInput("partySelect_2", 
                                                                            h4("Seleccione los partidos a mostrar"),
@@ -110,32 +110,44 @@ navbarPage(theme = shinytheme("flatly"),
                       )
                     ),
            ###################################################
-           # Panel: Código
-           tabPanel("Código",titlePanel(div(windowTitle = "Landing page",
+           # Panel: Bases de datos
+           tabPanel("Bases de datos",titlePanel(div(windowTitle = "Landing page",
                                             img(src = "INE.png", width = "20%", class = "bg"),
-                                            "Aqui vendría una descripción.")),tags$br(),
-                    tabsetPanel(
-                      tabPanel("Prueba",fluidRow(
-                        box(plotOutput("plot1", height = 250)),
-                        box(title = "Controls", sliderInput("slider", "Number of observations:", 1, 100, 50)
-                            )
-                        ))
+                                            "Nuestro objetivo es facilitar el acceso a información legislativa")),tags$br(),
+                    fluidPage(
+                      fluidRow(
+                        column(6, htmlOutput("Transparencia_1")
+                               ),
+                        column(6, htmlOutput("Notas_transparencia")
+                        )
+                        
+                      ),
+                      fluidRow(
+                        column(6,splitLayout( div(style="display:inline-block",downloadButton('Descarga_1', 'SIL'), style="float:right"),
+                               div(style="display:inline-block",downloadButton('Descarga_2', 'LXIV legislatura'), style="float:right"),
+                               div(style="display:inline-block",downloadButton('Descarga_3', 'LX-LXIII legislatura'), style="float:right"))
+                        )
                       )
+                    )
                     ),
            ###################################################
-           # Panel: Bases de Datos
-           tabPanel("Bases de Datos",titlePanel(div(windowTitle = "Landing page",
-                                            img(src = "INE.png", width = "20%", class = "bg"),
-                                            "Aqui vendría otra descripción.")),tags$br(),
-                    tabsetPanel(
-                      tabPanel("Prueba",fluidRow(
-                        
-                        ))
+           # Panel: Código
+           tabPanel("Contacto",titlePanel(div(windowTitle = "Landing page",
+                                                             img(src = "INE.png", width = "20%", class = "bg"),
+                                                             "Contáctanos:")),tags$br(),
+                    fluidPage(
+                      fluidRow(
+                        downloadButton("downloadData2", "test")
+                      )
                     )
-           )
-           
+           ),
+           ###################################################
+           # Panel: Visitanos
+           tabPanel(title=HTML("</a></li><li><a href='https://github.com/fvg98/transparencia-de-datos/' target='_blank'>Visítanos en Github"))
            ###################################################
            )
 
+                                
+                                
                                 
               
