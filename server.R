@@ -313,7 +313,7 @@ server <- function(session, input, output) {
 
                                                    "<li> Somos un proyecto colaborativo. Si estás en un proyecto similar, quieres apoyarnos a recolectar la información legislativa de México o tienes sugerencias para mejorar la presentación y utilidad de las bases de datos puedes contactarnos. Nuestra info está en la pestaña 'Contacto'." ,
                                                    sep = "<br/>")})
-  
+
   
 }
 
