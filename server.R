@@ -293,13 +293,11 @@ server <- function(session, input, output) {
   output$Transparencia_1 <- renderText({paste( 
                                        "<h3><b>Por esa razón ponemos a disposición las siguientes bases de datos:</b></h3>", 
                                        "<b>1.- </b> Perfiles de legisladores del Sistema de Información Legislativa (SIL). Período (PENDIENTE)",
-                                       "",
-                                       "<b>2.- </b> Curricula de los diputados de la LXIV legislatura de la cámara de diputados. (Incluye votaciones y asistencias)",
-                                       "",
-                                       "<b>3.- </b>Curricula de los diputados LX-LXIII legislaturas de la cámara de diputados. (Incluye votaciones)",
-                                       "",
-                                       "",
-                                       sep = "<br/>")})
+                                       "",sep = "<br/>")})
+  output$Transparencia_2 <- renderText({paste("<b>2.- </b> Curricula de los diputados de la LXIV legislatura de la cámara de diputados. (Incluye votaciones y asistencias)",
+                                              "",sep="<br/>")})
+  output$Transparencia_3 <- renderText({paste("<b>3.- </b>Curricula de los diputados LX-LXIII legislaturas de la cámara de diputados. (Incluye votaciones)",
+                                              "",sep="<br/>")})
   output$Notas_transparencia <- renderText({paste( "<h4><b>Notas:</b></h4>",
                                                    
                                                    "<li> Las bases están en formato JSON y se encuentra debidamente documentadas para el usuario.",

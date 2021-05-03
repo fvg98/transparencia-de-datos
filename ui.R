@@ -117,17 +117,12 @@ navbarPage(theme = shinytheme("flatly"),
                                             "Nuestro objetivo es facilitar el acceso a información legislativa")),tags$br(),
                     fluidPage(
                       fluidRow(
-                        column(6, htmlOutput("Transparencia_1"),a(href="Legis_60-61.rar", "Legislaturas LX-LXIII", download=NA, target="_blank")
-                               ),
+                        column(6,htmlOutput("Transparencia_1"),a(href="Legis_60-61.rar", "Sistema de Información Legislativa", download=NA, target="_blank"),
+                               htmlOutput("Transparencia_2"),a(href="Legis_60-61.rar", "Currícula y votaciones LXIV", download=NA, target="_blank"),
+                               htmlOutput("Transparencia_3"),a(href="Legis_60-61.rar", "Legislaturas LX-LXIII", download=NA, target="_blank")),
                         column(6, htmlOutput("Notas_transparencia")
                         )
                         
-                      ),
-                      fluidRow(
-                        column(6,splitLayout( div(style="display:inline-block",downloadButton('Descarga_1', 'SIL'), style="float:right"),
-                               div(style="display:inline-block",downloadButton('Descarga_2', 'LXIV legislatura'), style="float:right"),
-                               div(style="display:inline-block",downloadButton('Descarga_3', 'LX-LXIII legislatura'), style="float:right"))
-                        )
                       )
                     )
                     ),
