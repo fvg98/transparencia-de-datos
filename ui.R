@@ -3,10 +3,11 @@ library(shiny)
 library(shinydashboard)
 library(shinythemes)
 library(plotly)
-
+HTML('<script> document.title = "Internet Tab Name"; </script>')
 navbarPage(theme = shinytheme("flatly"),
            title = tags$a(href='http://datalabitam.com/index.html',
                           tags$img(src='logo_2.png',height=37, align = "center")),
+           windowTitle = HTML("Transparencia legislativa"),
            ###################################################
            # Panel: Visualizaciones
            tabPanel("Visualizaciones",titlePanel(div(windowTitle = "Landing page",
