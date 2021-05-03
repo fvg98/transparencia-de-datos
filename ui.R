@@ -117,9 +117,9 @@ navbarPage(theme = shinytheme("flatly"),
                                             "Nuestro objetivo es facilitar el acceso a información legislativa")),tags$br(),
                     fluidPage(
                       fluidRow(
-                        column(6,htmlOutput("Transparencia_1"),a(href="Legis_60-61.rar", "Sistema de Información Legislativa", download=NA, target="_blank"),
-                               htmlOutput("Transparencia_2"),a(href="Legis_60-61.rar", "Currícula y votaciones LXIV", download=NA, target="_blank"),
-                               htmlOutput("Transparencia_3"),a(href="Legis_60-61.rar", "Legislaturas LX-LXIII", download=NA, target="_blank")),
+                        column(6,htmlOutput("Transparencia_1"),a(href="SIL.rar", "Sistema de Información Legislativa", download=NA, target="_blank"),
+                               htmlOutput("Transparencia_2"),a(href="LXIV.rar", "Currícula y votaciones LXIV", download=NA, target="_blank"),
+                               htmlOutput("Transparencia_3"),a(href="LX-LXIII.rar", "Legislaturas LX-LXIII", download=NA, target="_blank")),
                         column(6, htmlOutput("Notas_transparencia")
                         )
                         
