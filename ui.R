@@ -6,7 +6,7 @@ library(plotly)
 HTML('<script> document.title = "Internet Tab Name"; </script>')
 navbarPage(theme = shinytheme("flatly"),
            title = tags$a(href='http://datalabitam.com/index.html',
-                          tags$img(src='logo_2.png',height=37, align = "center")),
+                          tags$img(src='logo_2.png',height=37,style="display: block; margin-left: auto; margin-right: auto; display: flex; align-items: center; justify-content: center;")),
            windowTitle = HTML("Transparencia legislativa"),
            ###################################################
            # Panel: Visualizaciones
