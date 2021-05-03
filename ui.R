@@ -127,19 +127,14 @@ navbarPage(theme = shinytheme("flatly"),
                     )
                     ),
            ###################################################
-           # Panel: Código
-           tabPanel("Contacto",titlePanel(div(windowTitle = "Landing page",
-                                                             img(src = "INE.png", width = "20%", class = "bg"),
-                                                             "Contáctanos:")),tags$br(),
-                    fluidPage(
-                      fluidRow(
-                        downloadButton("downloadData2", "test")
-                      )
-                    )
-           ),
-           ###################################################
            # Panel: Visitanos
-           tabPanel(title=HTML("</a></li><li><a href='https://github.com/fvg98/transparencia-de-datos/' target='_blank'>Visítanos en Github"))
+           tabPanel(title=HTML("</a></li><li><a href='https://github.com/fvg98/transparencia-de-datos/' target='_blank'>Visítanos en Github")
+                    ),
+           navbarMenu("Contacto",
+             tabPanel("Twitter"),
+             tabPanel("Instagram"),
+             tabPanel("Sitio web")
+           )
            ###################################################
            )
 #
