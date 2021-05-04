@@ -20,6 +20,10 @@ src_3 <- paste0("https://twitframe.com/show?url=", url_3)
 tweet_4 <- "https://twitter.com/DatalabITAM/status/1388259181791113220"
 url_4 <- URLencode(tweet_4, reserved = TRUE)
 src_4 <- paste0("https://twitframe.com/show?url=", url_4)
+#Hilo 5 de Twitter
+tweet_5 <- "https://twitter.com/DatalabITAM/status/1389712137149292545"
+url_5 <- URLencode(tweet_5, reserved = TRUE)
+src_5 <- paste0("https://twitframe.com/show?url=", url_5)
 
 
 js <- '
@@ -61,6 +65,16 @@ $(window).on("message", function(e) {
     $("#tweet_4").css("height", parseInt(oe.data.height) + "px");
   }
 });'
+js_5 <- '
+$(window).on("message", function(e) {
+  var oe = e.originalEvent;
+  if (oe.origin !== "https://twitframe.com")
+    return;
+  if (oe.data.height && oe.data.element.id === "tweet_5"){
+    $("#tweet_5").css("height", parseInt(oe.data.height) + "px");
+  }
+});'
+
 
 ###### PRINCIPAL #####
 navbarPage(theme = shinytheme("flatly"),
@@ -243,7 +257,21 @@ navbarPage(theme = shinytheme("flatly"),
       ),
       
       uiOutput("frame_4")
-    )
+    ),
+    fluidRow(
+      tags$head(
+        tags$script(HTML(js_5)),
+        tags$style(HTML(
+          "
+          .content {
+          margin: auto;
+          padding: 20px;
+          width: 60%;
+          }"))
+      ),
+      
+      uiOutput("frame_5")
+        )
     
              
            ),

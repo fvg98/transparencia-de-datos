@@ -399,6 +399,26 @@ server <- function(session, input, output) {
   });")))
     )
     })
+  output[["frame_5"]] <- renderUI({
+    tagList(
+      tags$div(
+        class = "content",
+        tags$div(tags$iframe(
+          id = "tweet_5",
+          border=0, frameborder=0, height=70, width=800,
+          src = src_5
+        ))
+      ),
+      singleton(tags$script(HTML(
+        "$(document).ready(function(){
+        $('iframe#tweet_5').on('load', function() {
+        this.contentWindow.postMessage(
+        { element: {id:this.id}, query: 'height' },
+        'https://twitframe.com');
+        });
+  });")))
+    )
+  })
 }
 
 
