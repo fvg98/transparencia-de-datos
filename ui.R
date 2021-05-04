@@ -65,12 +65,12 @@ $(window).on("message", function(e) {
 ###### PRINCIPAL #####
 navbarPage(theme = shinytheme("flatly"),
            title = tags$a(href='http://datalabitam.com/index.html',
-                          tags$img(src='logo_2.png',height=37,style="display: block; margin-left: auto; margin-right: auto; display: flex; align-items: center; justify-content: center;")),
+                          tags$img(src='logo_2.png',height=28,style="display: block; margin-left: auto; margin-right: auto; display: flex; align-items: center; justify-content: center;")),
            windowTitle = HTML("Transparencia legislativa"),
            ###################################################
            # Panel: Visualizaciones
            tabPanel("Visualizaciones",titlePanel(div(windowTitle = "Landing page",
-                                                     HTML('<center><img src="VOTO_2.png" width="200"></center>'),
+                                                     HTML('<center><img src="VOTO_2.png" width="120"></center>'),
                                                      htmlOutput("header_1"))),tags$br(),
                     tabsetPanel(
                       ###################################################
@@ -247,14 +247,12 @@ navbarPage(theme = shinytheme("flatly"),
     
              
            ),
-           ###################################################
-           # Panel: Visitanos
-           tabPanel(title=HTML("</a></li><li><a href='https://github.com/fvg98/transparencia-de-datos/' target='_blank'>Visítanos en Github")
-                    ),
            navbarMenu("Contacto",
+                      tabPanel(title=HTML("</a></li><li><a href='https://github.com/fvg98/transparencia-de-datos/' target='_blank'>Repositorio en Github")),        
              tabPanel(title=HTML("</a></li><li><a href='https://twitter.com/DatalabITAM?s=08' target='_blank'>Twitter")),
              tabPanel(title=HTML("</a></li><li><a href='https://instagram.com/datalabitam?igshid=4hr74hjef9n3' target='_blank'>Instagram")),
              tabPanel(title=HTML("</a></li><li><a href='http://datalabitam.com/index.html' target='_blank'>Sitio Web"))
+             
            )
            ###################################################
            )
