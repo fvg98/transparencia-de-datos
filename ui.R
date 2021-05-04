@@ -11,8 +11,8 @@ navbarPage(theme = shinytheme("flatly"),
            ###################################################
            # Panel: Visualizaciones
            tabPanel("Visualizaciones",titlePanel(div(windowTitle = "Landing page",
-                                                     img(src = "INE.png", width = "20%", class = "bg"),
-                                                     "Datalab - Transparencia legislativa")),tags$br(),
+                                                     HTML('<center><img src="VOTO_2.png" width="200"></center>'),
+                                                     htmlOutput("header_1"))),tags$br(),
                     tabsetPanel(
                       ###################################################
                       # Género
@@ -113,8 +113,8 @@ navbarPage(theme = shinytheme("flatly"),
            ###################################################
            # Panel: Bases de datos
            tabPanel("Bases de datos",titlePanel(div(windowTitle = "Landing page",
-                                            img(src = "INE.png", width = "20%", class = "bg"),
-                                            "Nuestro objetivo es facilitar el acceso a información legislativa")),tags$br(),
+                                                    HTML('<center><img src="INE.png" width="300"></center>'),
+                                                    htmlOutput("header_2"))),tags$br(),
                     fluidPage(
                       fluidRow(
                         column(6,htmlOutput("Transparencia_1"),a(href="SIL.rar", "Sistema de Información Legislativa", download=NA, target="_blank"),
@@ -126,14 +126,19 @@ navbarPage(theme = shinytheme("flatly"),
                       )
                     )
                     ),
+           tabPanel("Publicaciones",titlePanel(div(windowTitle = "Landing page",
+                                                   HTML('<center><img src="PUB_2.png" width="300"></center>'),
+                                                   htmlOutput("header_3"))),tags$br()
+             
+           ),
            ###################################################
            # Panel: Visitanos
            tabPanel(title=HTML("</a></li><li><a href='https://github.com/fvg98/transparencia-de-datos/' target='_blank'>Visítanos en Github")
                     ),
            navbarMenu("Contacto",
-             tabPanel("Twitter"),
-             tabPanel("Instagram"),
-             tabPanel("Sitio web")
+             tabPanel(title=HTML("</a></li><li><a href='https://twitter.com/DatalabITAM?s=08' target='_blank'>Twitter")),
+             tabPanel(title=HTML("</a></li><li><a href='https://instagram.com/datalabitam?igshid=4hr74hjef9n3' target='_blank'>Instagram")),
+             tabPanel(title=HTML("</a></li><li><a href='http://datalabitam.com/index.html' target='_blank'>Sitio Web"))
            )
            ###################################################
            )

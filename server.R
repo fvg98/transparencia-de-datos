@@ -312,7 +312,11 @@ server <- function(session, input, output) {
                                                    "<li> Somos un proyecto colaborativo. Si estás en un proyecto similar, quieres apoyarnos a recolectar la información legislativa de México o tienes sugerencias para mejorar la presentación y utilidad de las bases de datos puedes contactarnos. Nuestra info está en la pestaña 'Contacto'." ,
                                                    sep = "<br/>")})
 
-  
+  ###############################################
+  #Texto a mostrar cuando 
+  output$header_1 <- renderText({paste("<center><b>Datalab</b></center>" ,"<center>Transparencia legislativa</center>",sep=" ")})
+  output$header_2 <- renderText({paste("<center><b>Nuestro objetivo es facilitar el acceso a información legislativa</b></center>")})
+  output$header_3 <- renderText({paste("<center><b>Publicaciones</b></center>")})
 }
 
 
