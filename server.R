@@ -313,10 +313,92 @@ server <- function(session, input, output) {
                                                    sep = "<br/>")})
 
   ###############################################
-  #Texto a mostrar cuando 
+  #Texto a mostrar en landing pages
   output$header_1 <- renderText({paste("<center><b>Datalab</b></center>" ,"<center>Transparencia legislativa</center>",sep=" ")})
   output$header_2 <- renderText({paste("<center><b>Nuestro objetivo es facilitar el acceso a información legislativa</b></center>")})
-  output$header_3 <- renderText({paste("<center><b>Publicaciones</b></center>")})
+  output$header_3 <- renderText({paste("<center><b>Publicaciones</b></center>","<center><h4>Haz clic en el Tweet para ver el hilo</h4></center>",sep = " ")})
+  ###############################################
+  #Tweets
+  output[["frame"]] <- renderUI({
+    tagList(
+      tags$div(
+        class = "content",
+        tags$div(tags$iframe(
+          id = "tweet",
+          border=0, frameborder=0, height=70, width=800,
+          src = src
+        ))
+      ),
+      singleton(tags$script(HTML(
+        "$(document).ready(function(){
+          $('iframe#tweet').on('load', function() {
+            this.contentWindow.postMessage(
+              { element: {id:this.id}, query: 'height' },
+              'https://twitframe.com');
+          });
+        });")))
+    )
+  })
+  output[["frame_2"]] <- renderUI({
+    tagList(
+      tags$div(
+        class = "content",
+        tags$div(tags$iframe(
+          id = "tweet_2",
+          border=0, frameborder=0, height=70, width=800,
+          src = src_2
+        ))
+      ),
+      singleton(tags$script(HTML(
+        "$(document).ready(function(){
+          $('iframe#tweet_2').on('load', function() {
+            this.contentWindow.postMessage(
+              { element: {id:this.id}, query: 'height' },
+              'https://twitframe.com');
+          });
+        });")))
+    )
+  })
+  output[["frame_3"]] <- renderUI({
+    tagList(
+      tags$div(
+        class = "content",
+        tags$div(tags$iframe(
+          id = "tweet_3",
+          border=0, frameborder=0, height=70, width=800,
+          src = src_3
+        ))
+      ),
+      singleton(tags$script(HTML(
+        "$(document).ready(function(){
+        $('iframe#tweet_3').on('load', function() {
+        this.contentWindow.postMessage(
+        { element: {id:this.id}, query: 'height' },
+        'https://twitframe.com');
+        });
+  });")))
+    )
+    })
+  output[["frame_4"]] <- renderUI({
+    tagList(
+      tags$div(
+        class = "content",
+        tags$div(tags$iframe(
+          id = "tweet_4",
+          border=0, frameborder=0, height=70, width=800,
+          src = src_4
+        ))
+      ),
+      singleton(tags$script(HTML(
+        "$(document).ready(function(){
+        $('iframe#tweet_4').on('load', function() {
+        this.contentWindow.postMessage(
+        { element: {id:this.id}, query: 'height' },
+        'https://twitframe.com');
+        });
+  });")))
+    )
+    })
 }
 
 

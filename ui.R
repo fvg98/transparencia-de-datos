@@ -3,7 +3,66 @@ library(shiny)
 library(shinydashboard)
 library(shinythemes)
 library(plotly)
-HTML('<script> document.title = "Internet Tab Name"; </script>')
+##### #Script para juntar tweets #####
+#Hilo 1 de Twitter
+tweet <- "https://twitter.com/DatalabITAM/status/1385341212027092992"
+url <- URLencode(tweet, reserved = TRUE)
+src <- paste0("https://twitframe.com/show?url=", url)
+#Hilo 2 de Twitter
+tweet_2 <- "https://twitter.com/DatalabITAM/status/1385715021775138816"
+url_2 <- URLencode(tweet_2, reserved = TRUE)
+src_2 <- paste0("https://twitframe.com/show?url=", url_2)
+#Hilo 3 de Twitter
+tweet_3 <- "https://twitter.com/DatalabITAM/status/1386808302374322177"
+url_3 <- URLencode(tweet_3, reserved = TRUE)
+src_3 <- paste0("https://twitframe.com/show?url=", url_3)
+#Hilo 4 de Twitter
+tweet_4 <- "https://twitter.com/DatalabITAM/status/1388259181791113220"
+url_4 <- URLencode(tweet_4, reserved = TRUE)
+src_4 <- paste0("https://twitframe.com/show?url=", url_4)
+
+
+js <- '
+$(window).on("message", function(e) {
+  var oe = e.originalEvent;
+  if (oe.origin !== "https://twitframe.com")
+    return;
+  if (oe.data.height && oe.data.element.id === "tweet"){
+    $("#tweet").css("height", parseInt(oe.data.height) + "px");
+  }
+});'
+
+js_2 <- '
+$(window).on("message", function(e) {
+  var oe = e.originalEvent;
+  if (oe.origin !== "https://twitframe.com")
+    return;
+  if (oe.data.height && oe.data.element.id === "tweet_2"){
+    $("#tweet_2").css("height", parseInt(oe.data.height) + "px");
+  }
+});'
+
+js_3 <- '
+$(window).on("message", function(e) {
+var oe = e.originalEvent;
+if (oe.origin !== "https://twitframe.com")
+return;
+if (oe.data.height && oe.data.element.id === "tweet_3"){
+$("#tweet_3").css("height", parseInt(oe.data.height) + "px");
+}
+});'
+
+js_4 <- '
+$(window).on("message", function(e) {
+  var oe = e.originalEvent;
+  if (oe.origin !== "https://twitframe.com")
+    return;
+  if (oe.data.height && oe.data.element.id === "tweet_4"){
+    $("#tweet_4").css("height", parseInt(oe.data.height) + "px");
+  }
+});'
+
+###### PRINCIPAL #####
 navbarPage(theme = shinytheme("flatly"),
            title = tags$a(href='http://datalabitam.com/index.html',
                           tags$img(src='logo_2.png',height=37,style="display: block; margin-left: auto; margin-right: auto; display: flex; align-items: center; justify-content: center;")),
@@ -128,7 +187,64 @@ navbarPage(theme = shinytheme("flatly"),
                     ),
            tabPanel("Publicaciones",titlePanel(div(windowTitle = "Landing page",
                                                    HTML('<center><img src="PUB_2.png" width="300"></center>'),
-                                                   htmlOutput("header_3"))),tags$br()
+                                                   htmlOutput("header_3"))),tags$br(),
+                    fluidRow(
+                      tags$head(
+                        tags$script(HTML(js)),
+                        tags$style(HTML(
+                          "
+                          .content {
+                          margin: auto;
+                          padding: 20px;
+                          width: 60%;
+                          }"))
+    ),
+    
+    uiOutput("frame")
+                        ),
+    fluidRow(
+      tags$head(
+        tags$script(HTML(js_2)),
+        tags$style(HTML(
+          "
+                          .content {
+                          margin: auto;
+                          padding: 20px;
+                          width: 60%;
+                          }"))
+      ),
+      
+      uiOutput("frame_2")
+    ),
+    fluidRow(
+      tags$head(
+        tags$script(HTML(js_3)),
+        tags$style(HTML(
+          "
+                          .content {
+                          margin: auto;
+                          padding: 20px;
+                          width: 60%;
+                          }"))
+      ),
+      
+      uiOutput("frame_3")
+    ),
+    fluidRow(
+      tags$head(
+        tags$script(HTML(js_4)),
+        tags$style(HTML(
+          "
+                          .content {
+                          margin: auto;
+                          padding: 20px;
+                          width: 60%;
+                          }"))
+      ),
+      
+      uiOutput("frame_4")
+    )
+    
              
            ),
            ###################################################
