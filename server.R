@@ -311,12 +311,31 @@ server <- function(session, input, output) {
 
                                                    "<li> Somos un proyecto colaborativo. Si estás en un proyecto similar, quieres apoyarnos a recolectar la información legislativa de México o tienes sugerencias para mejorar la presentación y utilidad de las bases de datos puedes contactarnos. Nuestra info está en la pestaña 'Contacto'." ,
                                                    sep = "<br/>")})
+  output$Notas_landing <- renderText({paste( "<h4><b>Nuestro dashboard ofrece las siguientes herramientas:</b></h4>",
+                                                   
+                                                   "<li> Visualizaciones interactivas para informarte de la composición y comportamiento de la cámara de diputados de la LXIV legislatura.",
+                                                   "",
+                                                   
+                                                   "<li> Bases de datos históricas y actuales de la cámara de diputados que facilitan crear visualizaciones o análisis de su comportamiento a lo largo del tiempo.",
+                                                   "",
+                                                   "<li> Documentación y código para replicabilidad y actualización de las bases de datos.",
+                                                   "",
+                                                   "<li> Tutoriales de como usar herramientas que consideramos importantes para informarte en este proceso electoral." ,
+                                                   "",sep = "<br/>")})
+  output$Transparencia_4 <- renderText({paste( 
+    "<h2><b>Bases de datos que ocupamos para las visualizaciones:</b></h2>", 
+    "<li> Información usada para las visualizaciones:",
+    "",sep = "<br/>")})
 
   ###############################################
   #Texto a mostrar en landing pages
   output$header_1 <- renderText({paste("<center><b>Datalab</b></center>" ,"<center>Transparencia legislativa</center>",sep=" ")})
   output$header_2 <- renderText({paste("<center><b>Nuestro objetivo es facilitar el acceso a información legislativa</b></center>")})
   output$header_3 <- renderText({paste("<center><b>Publicaciones</b></center>","<center><h4>Haz clic en el Tweet para ver el hilo</h4></center>",sep = " ")})
+  output$header_4 <- renderText({paste("<center><b>(Recurso del INE)</b></center>","<center><h4>Te dejamos un pequeño tutorial de como utilizarlo:</h4></center>",sep = " ")})
+  output$header_5 <- renderText({paste("<center><b>¡Te damos la bienvenida!</b></center>","<center><h4>Somos un grupo estudiantil que busca aportar en este proceso electoral</h4></center>",sep = " ")})
+  output$header_6 <- renderText({paste("<center><h4><b>Te dejamos un video para guiarte por la página:</b></h4></center>",sep = " ")})
+  ###############################################
   ###############################################
   #Tweets
   output[["frame"]] <- renderUI({
@@ -418,6 +437,13 @@ server <- function(session, input, output) {
         });
   });")))
     )
+  })
+  observeEvent(input$navibar,{
+    if(input$navibar == "home"){
+      browseURL("https://candidaturas.ine.mx/")
+    }else if (input$navibar == "git"){
+      browseURL("https://github.com/fvg98/transparencia-de-datos/")
+    }
   })
 }
 

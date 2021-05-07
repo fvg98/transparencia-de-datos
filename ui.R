@@ -3,6 +3,7 @@ library(shiny)
 library(shinydashboard)
 library(shinythemes)
 library(plotly)
+
 ##### #Script para juntar tweets #####
 #Hilo 1 de Twitter
 tweet <- "https://twitter.com/DatalabITAM/status/1385341212027092992"
@@ -77,10 +78,20 @@ $(window).on("message", function(e) {
 
 
 ###### PRINCIPAL #####
-navbarPage(theme = shinytheme("flatly"),
+navbarPage(theme = shinytheme("flatly"),id = "navibar",
            title = tags$a(href='http://datalabitam.com/index.html',
                           tags$img(src='logo_2.png',height=28,style="display: block; margin-left: auto; margin-right: auto; display: flex; align-items: center; justify-content: center;")),
            windowTitle = HTML("Transparencia legislativa"),
+           ###################################################
+           # Panel: Visualizaciones
+           tabPanel("Bienvenido",titlePanel(div(windowTitle = "Landing page",
+                                                     HTML('<center><img src="trans.jpg" width="820"></center>'),
+                                                     htmlOutput("header_5"))),tags$br(),
+           fluidRow(
+             column(4,htmlOutput("Notas_landing")),
+             
+             column(8, htmlOutput("header_6")
+             ))),
            ###################################################
            # Panel: Visualizaciones
            tabPanel("Visualizaciones",titlePanel(div(windowTitle = "Landing page",
@@ -196,7 +207,15 @@ navbarPage(theme = shinytheme("flatly"),
                         column(6, htmlOutput("Notas_transparencia")
                         )
                         
+                      ),fluidRow(
+                        column(6,htmlOutput("Transparencia_4"),a(href="Visualizaciones.rar", "Descargar", download=NA, target="_blank")),
+                               
+                        column(6, htmlOutput("Notas_data")
+                        )
+                        
                       )
+                      
+                      
                     )
                     ),
            tabPanel("Publicaciones",titlePanel(div(windowTitle = "Landing page",
@@ -275,6 +294,10 @@ navbarPage(theme = shinytheme("flatly"),
     
              
            ),
+    tabPanel("Conoce a tus candidatos",titlePanel(div(windowTitle = "Landing page",
+                                                      HTML('<center><img src="INE.png" width="300"></center>'),
+                                                      htmlOutput("header_4"))),tags$br(),value = "home"
+             ),
            navbarMenu("Contacto",
                       tabPanel(title=HTML("</a></li><li><a href='https://github.com/fvg98/transparencia-de-datos/' target='_blank'>Repositorio en Github")),        
              tabPanel(title=HTML("</a></li><li><a href='https://twitter.com/DatalabITAM?s=08' target='_blank'>Twitter")),
