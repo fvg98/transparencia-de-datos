@@ -292,7 +292,7 @@ server <- function(session, input, output) {
   #Texto a mostrar en "Bases de datos"
   output$Transparencia_1 <- renderText({paste( 
                                        "<h3><b>Por esa razón ponemos a disposición las siguientes bases de datos:</b></h3>", 
-                                       "<b>1.- </b> Perfiles de legisladores del Sistema de Información Legislativa (SIL). Período (PENDIENTE)",
+                                       "<b>1.- </b> Perfiles de legisladores del Sistema de Información Legislativa (SIL). Todas las entradas de perfiles legislativos disponibles. Incluye Senadores.",
                                        "",sep = "<br/>")})
   output$Transparencia_2 <- renderText({paste("<b>2.- </b> Curricula de los diputados de la LXIV legislatura de la cámara de diputados. (Incluye votaciones y asistencias)",
                                               "",sep="<br/>")})
@@ -334,7 +334,7 @@ server <- function(session, input, output) {
   output$header_3 <- renderText({paste("<center><b>Publicaciones</b></center>","<center><h4>Haz clic en el Tweet para ver el hilo</h4></center>",sep = " ")})
   output$header_4 <- renderText({paste("<center><b>(Recurso del INE)</b></center>","<center><h4>Te dejamos un pequeño tutorial de como utilizarlo:</h4></center>",sep = " ")})
   output$header_5 <- renderText({paste("<center><b>¡Te damos la bienvenida!</b></center>","<center><h4>Somos un grupo estudiantil que busca aportar en este proceso electoral</h4></center>",sep = " ")})
-  output$header_6 <- renderText({paste("<center><h4><b>Te dejamos un video para guiarte por la página:</b></h4></center>",sep = " ")})
+  output$header_6 <- renderText({paste("<h4><b>Te dejamos un video para guiarte por la página:</b></h4>",sep = " ")})
   ###############################################
   ###############################################
   #Tweets
@@ -343,14 +343,14 @@ server <- function(session, input, output) {
       tags$div(
         class = "content",
         tags$div(tags$iframe(
-          id = "tweet",
-          border=0, frameborder=0, height=70, width=800,
-          src = src
+          id = "https://twitter.com/DatalabITAM/status/1385341212027092992",
+          border=0, frameborder=0, height=370, width=600,
+          src = "https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2FDatalabITAM%2Fstatus%2F1385341212027092992"
         ))
       ),
       singleton(tags$script(HTML(
         "$(document).ready(function(){
-          $('iframe#tweet').on('load', function() {
+          $('iframe#https://twitter.com/DatalabITAM/status/1385341212027092992').on('load', function() {
             this.contentWindow.postMessage(
               { element: {id:this.id}, query: 'height' },
               'https://twitframe.com');
@@ -363,14 +363,14 @@ server <- function(session, input, output) {
       tags$div(
         class = "content",
         tags$div(tags$iframe(
-          id = "tweet_2",
-          border=0, frameborder=0, height=70, width=800,
-          src = src_2
+          id = "https://twitter.com/DatalabITAM/status/1385715021775138816",
+          border=0, frameborder=0, height=350, width=800,
+          src = "https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2FDatalabITAM%2Fstatus%2F1385715021775138816"
         ))
       ),
       singleton(tags$script(HTML(
         "$(document).ready(function(){
-          $('iframe#tweet_2').on('load', function() {
+          $('iframe#https://twitter.com/DatalabITAM/status/1385715021775138816').on('load', function() {
             this.contentWindow.postMessage(
               { element: {id:this.id}, query: 'height' },
               'https://twitframe.com');
@@ -383,14 +383,14 @@ server <- function(session, input, output) {
       tags$div(
         class = "content",
         tags$div(tags$iframe(
-          id = "tweet_3",
-          border=0, frameborder=0, height=70, width=800,
-          src = src_3
+          id = "https://twitter.com/DatalabITAM/status/1386808302374322177",
+          border=0, frameborder=0, height=350, width=800,
+          src = "https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2FDatalabITAM%2Fstatus%2F1386808302374322177"
         ))
       ),
       singleton(tags$script(HTML(
         "$(document).ready(function(){
-        $('iframe#tweet_3').on('load', function() {
+        $('iframe#https://twitter.com/DatalabITAM/status/1386808302374322177').on('load', function() {
         this.contentWindow.postMessage(
         { element: {id:this.id}, query: 'height' },
         'https://twitframe.com');
@@ -403,14 +403,14 @@ server <- function(session, input, output) {
       tags$div(
         class = "content",
         tags$div(tags$iframe(
-          id = "tweet_4",
-          border=0, frameborder=0, height=70, width=800,
-          src = src_4
+          id = "https://twitter.com/DatalabITAM/status/1388259181791113220",
+          border=0, frameborder=0, height=370, width=800,
+          src = "https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2FDatalabITAM%2Fstatus%2F1388259181791113220"
         ))
       ),
       singleton(tags$script(HTML(
         "$(document).ready(function(){
-        $('iframe#tweet_4').on('load', function() {
+        $('iframe#https://twitter.com/DatalabITAM/status/1388259181791113220').on('load', function() {
         this.contentWindow.postMessage(
         { element: {id:this.id}, query: 'height' },
         'https://twitframe.com');
@@ -423,14 +423,14 @@ server <- function(session, input, output) {
       tags$div(
         class = "content",
         tags$div(tags$iframe(
-          id = "tweet_5",
-          border=0, frameborder=0, height=70, width=800,
-          src = src_5
+          id = "https://twitter.com/DatalabITAM/status/1389712137149292545",
+          border=0, frameborder=0, height=350, width=800,
+          src = "https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2FDatalabITAM%2Fstatus%2F1389712137149292545"
         ))
       ),
       singleton(tags$script(HTML(
         "$(document).ready(function(){
-        $('iframe#tweet_5').on('load', function() {
+        $('iframe#https://twitter.com/DatalabITAM/status/1389712137149292545').on('load', function() {
         this.contentWindow.postMessage(
         { element: {id:this.id}, query: 'height' },
         'https://twitframe.com');
