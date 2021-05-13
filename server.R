@@ -438,6 +438,26 @@ server <- function(session, input, output) {
   });")))
     )
   })
+  output[["frame_6"]] <- renderUI({
+    tagList(
+      tags$div(
+        class = "content",
+        tags$div(tags$iframe(
+          id = "https://twitter.com/DatalabITAM/status/1392615740646117376",
+          border=0, frameborder=0, height=350, width=800,
+          src = "https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2FDatalabITAM%2Fstatus%2F1392615740646117376"
+        ))
+      ),
+      singleton(tags$script(HTML(
+        "$(document).ready(function(){
+        $('iframe#https://twitter.com/DatalabITAM/status/1392615740646117376').on('load', function() {
+        this.contentWindow.postMessage(
+        { element: {id:this.id}, query: 'height' },
+        'https://twitframe.com');
+        });
+  });")))
+    )
+  })
   observeEvent(input$navibar,{
     if(input$navibar == "home"){
       browseURL("https://candidaturas.ine.mx/")
@@ -446,5 +466,4 @@ server <- function(session, input, output) {
     }
   })
 }
-
 

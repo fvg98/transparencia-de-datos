@@ -259,6 +259,28 @@ $(window).on("message", function(e) {
       ),
       
       uiOutput("frame_5")
+        ),
+    fluidRow(
+      tags$head(
+        tags$script(HTML('
+                         $(window).on("message", function(e) {
+                         var oe = e.originalEvent;
+                         if (oe.origin !== "https://twitframe.com")
+                         return;
+                         if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1392615740646117376"){
+                         $("#tweet_5").css("height", parseInt(oe.data.height) + "px");
+                         }
+                         });')),
+        tags$style(HTML(
+          "
+          .content {
+          margin: auto;
+          padding: 20px;
+          width: 60%;
+          }"))
+      ),
+      
+      uiOutput("frame_6")
         )
     
              
