@@ -1,0 +1,17 @@
+Listado de las variables utilizadas en la base de datos del SIL, se agrega una descripción cuando su nombre no explica qué son.
+
+    CURP: clave generada para poder unir las bases de datos, es el nombre completo sin tildes o espacios.
+    Nombre: nombre completo
+    Periodo de la legislatura:
+    Partido: partido al que pertenece
+    Nacimiento: fecha y entidad de nacimiento
+    Principio de elección:
+    Zona: entidad
+    Toma de protesta: fecha de su toma de protesta
+    Ubicación en la cámara: dirección
+    Correo electrónico:": @senado.gob.mx
+    Teléfono en cámara: número de teléfono en la cámara
+    Suplente: suplente del legislador(a)
+    Último grado de estudios:
+    Preparación académica: por ejemplo, carrera estudiada
+    Experiencia legislativa: su experiencia legislativa previa
