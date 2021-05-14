@@ -19,7 +19,7 @@ navbarPage(theme = shinytheme("flatly"),id = "navibar",
            fluidRow(
              column(4,htmlOutput("Notas_landing")),
              
-             column(8, htmlOutput("header_6"),tags$iframe(width="840",align= "center",height="472.5", src="https://www.youtube.com/embed/ip09iryWIwQ", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)
+             column(8, htmlOutput("header_6"),tags$iframe(width="840",align= "center",height="472.5", src="https://www.youtube.com/embed/RtLWWwGW-XA", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)
              ))),
            ###################################################
            # Panel: Visualizaciones
@@ -288,7 +288,7 @@ $(window).on("message", function(e) {
     tabPanel("Conoce a tus candidatos",titlePanel(div(windowTitle = "Landing page",
                                                       HTML('<center><img src="INE.png" width="300"></center>'),
                                                       htmlOutput("header_4"))),tags$br(),value = "home"
-             ,tags$iframe(width="840",align= "center",height="472.5", src="https://www.youtube.com/embed/ip09iryWIwQ", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)),
+             ,fluidRow(column(3),column(8,tags$iframe(width="840",align= "center",height="472.5", src="https://www.youtube.com/embed/VHiQBhIl92o", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)),column(2))),
            navbarMenu("Contacto",
                       tabPanel(title=HTML("</a></li><li><a href='https://github.com/fvg98/transparencia-de-datos/' target='_blank'>Repositorio en Github")),        
              tabPanel(title=HTML("</a></li><li><a href='https://twitter.com/DatalabITAM?s=08' target='_blank'>Twitter")),
