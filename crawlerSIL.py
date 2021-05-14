@@ -10,8 +10,7 @@ import json
 urls = []
 a = [*range(57, 65, 1)]
 b = [*range(1, 3, 1)]
-# Aquí también se puede usar re.split() para separar el URL sin necesidad
-# de incluir los # que puse para ahorrar tiempo.
+
 urlMod = """http://sil.gobernacion.gob.mx/Reportes/Integracion/HCongreso/ResultIntegHCongreso.php?SID=&Prin_El=0&Entidad=0&Legislatura=#&Camara=#&Partido=0&Orden="""
 urlDividido = urlMod.split("#")
 
@@ -55,13 +54,6 @@ def limpiezaPerfil(sublista, subcategorias):
         res[subcategorias[i-1]+1:subcategorias[i]] = [" ".join(res[subcategorias[i-1]+1:subcategorias[i]])]
     return res
 
-"""
-def creaCURP(nombre):
-    section = re.findall(':(.*)por', nombre)
-    lista_iniciales = re.findall(r"([^\W])(?:[^\W]+)", section[0])
-    return "".join(lista_iniciales)
-"""
-
 def creaCURP(nombre):
     section = re.findall(':(.*)por', nombre)
     nom = section[0]
@@ -99,8 +91,6 @@ class SILSpider(scrapy.Spider):
         for link in links:
             yield response.follow(url=link, callback=self.parse_legisladores)
 
-# A partir del nombre y fecha de nacimiento, crear un ID
-# para cada legislador (RegEx)
 
 # Identificar los títulos de cada tabla y  todas las categorías por tabla
 
@@ -115,8 +105,7 @@ class SILSpider(scrapy.Spider):
 
         perfil = response.css('td[class="SubTitle"]::text').extract()
         comisiones = response.css('td[class="simpletextmayor"] ::text').extract()
-#        trayectoria_y_otros = response.css('td[class="simpletextmayor"]::text').extract()
-        titulos = perfil + comisiones #+ trayectoria_y_otros
+        titulos = perfil + comisiones
 
         cats = [i.replace('\n', '').replace('\t', '')
                       .replace('\r', '').replace('\xa0','').strip() for i in
@@ -139,13 +128,6 @@ class SILSpider(scrapy.Spider):
 
         todo_perfil = limpiezaPerfil(todo_l[indice_titulos[0]+1:indice_titulos[1]], indice_catPer)
 
-#        diccionarios = {}
-#        diccionarios[titulos[0]] = creaDicc(todo_perfil)
-
-#        diccionario = {}
-# Falta generar algo similar al CURP, pero algunos legisladores no tienen
-# fecha de nacimiento registrada
-#        diccionario['CURP'] = diccionarios
         diccionario = creaDicc(['CURP',creaCURP(todo_perfil[1])]+todo_perfil)
 
         with open('data.json', 'a') as f:
