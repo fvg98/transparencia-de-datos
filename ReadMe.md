@@ -8,9 +8,9 @@ Equipos de trabajo y objetivos:
 - **Dashboard:** Construir un dashboard interactivo que servirá de plataforma para publicar las visualizaciones, análisis y bases de datos trabajadas. 
 
 Contenido:
-- ui.R, server.R, www y Dashboard-data contienen los archivos necesarios para el Dashboard publicado en línea.
-- Los directorios Webscraping-x y Visualizaciones-x contienen las bases de datos scrapeadas, información al respecto de las variables en las bases, y el código para replicar el proceso para cada tema x.
-- Sample-Images, ReadMe.md y .gitignore son archivos propios del repositorio.
+- *ui.R*, *server.R*, *www* y *Dashboard-data* contienen los archivos necesarios para el Dashboard publicado en línea.
+- Los directorios *Webscraping-x* y *Visualizaciones-x* contienen las bases de datos scrapeadas, información al respecto de las variables en las bases, y el código para replicar el proceso para cada tema *x*.
+- *Sample-Images*, *ReadMe.md* y *.gitignore* son archivos propios del repositorio.
 
 Para cualquier aporte, colaboración, comentario o petición, favor de contactar al equipo de Datalab ITAM (datalabitam@gmail.com).
 
