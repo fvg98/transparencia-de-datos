@@ -285,13 +285,16 @@ $(window).on("message", function(e) {
            ),
     tabPanel("Conoce a tus candidatos",titlePanel(div(windowTitle = "Landing page",
                                                       HTML('<center><img src="INE.png" width="300"></center>'),
-                                                      htmlOutput("header_4"))),tags$br(),value = "home"
-             ,fluidRow(column(3),column(8,tags$iframe(width="840",align= "center",height="472.5", src="https://www.youtube.com/embed/VHiQBhIl92o", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)),column(2))),
-           navbarMenu("Contacto",
-                      tabPanel(title=HTML("</a></li><li><a href='https://github.com/fvg98/transparencia-de-datos/' target='_blank'>Repositorio en Github")),        
-             tabPanel(title=HTML("</a></li><li><a href='https://twitter.com/DatalabITAM?s=08' target='_blank'>Twitter")),
-             tabPanel(title=HTML("</a></li><li><a href='https://instagram.com/datalabitam?igshid=4hr74hjef9n3' target='_blank'>Instagram")),
-             tabPanel(title=HTML("</a></li><li><a href='http://datalabitam.com/index.html' target='_blank'>Sitio Web"))
+                                                      htmlOutput("header_4"))),tags$br(),
+             fluidRow(column(12, align="center", uiOutput("INE_url"))),
+             fluidRow(br()),
+             fluidRow(column(3),column(8,tags$iframe(width="560", height="315",align= "center", src="https://www.youtube.com/embed/VHiQBhIl92o", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)),column(2))
+             ),
+    navbarMenu("Contacto",
+               tabPanel(title=HTML("</a></li><li><a href='https://github.com/fvg98/transparencia-de-datos/' target='_blank'>Repositorio en Github")),        
+               tabPanel(title=HTML("</a></li><li><a href='https://twitter.com/DatalabITAM?s=08' target='_blank'>Twitter")),
+               tabPanel(title=HTML("</a></li><li><a href='https://instagram.com/datalabitam?igshid=4hr74hjef9n3' target='_blank'>Instagram")),
+               tabPanel(title=HTML("</a></li><li><a href='http://datalabitam.com/index.html' target='_blank'>Sitio Web"))
              
            )
            ###################################################

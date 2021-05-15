@@ -265,8 +265,8 @@ server <- function(session, input, output) {
       node = list(
         label = nodes,
         color = colors,
-        #x = node_x,
-        #y = node_y,
+        x = node_x,
+        y = node_y,
         pad = 15,
         thickness = 20,
         line = list(
@@ -331,10 +331,14 @@ server <- function(session, input, output) {
   output$header_1 <- renderText({paste("<center><b>Datalab</b></center>" ,"<center>Transparencia legislativa</center>",sep=" ")})
   output$header_2 <- renderText({paste("<center><b>Nuestro objetivo es facilitar el acceso a información legislativa</b></center>")})
   output$header_3 <- renderText({paste("<center><b>Publicaciones</b></center>","<center><h4>Haz clic en el Tweet para ver el hilo</h4></center>",sep = " ")})
-  output$header_4 <- renderText({paste("<center><b>(Recurso del INE)</b></center>","<center><h4>Te dejamos un pequeño tutorial de como utilizarlo:</h4></center>",sep = " ")})
+  output$header_4 <- renderText({paste("<center><b>Recurso del INE</b></center>","<center><h4>Tu participación es muy importante.</h4></center>",sep = " ")})
   output$header_5 <- renderText({paste("<center><b>¡Te damos la bienvenida!</b></center>","<center><h4>Somos un grupo estudiantil que busca aportar en este proceso electoral</h4></center>",sep = " ")})
   output$header_6 <- renderText({paste("<h4><b>Te dejamos un video para guiarte por la página:</b></h4>",sep = " ")})
   ###############################################
+  INEurl <- a("aquí!", href="https://candidaturas.ine.mx", target="_blank")
+  output$INE_url <- renderUI({
+    tagList("Haz click ", INEurl)
+  })
   ###############################################
   #Tweets
   output[["frame"]] <- renderUI({
