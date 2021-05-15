@@ -17,7 +17,7 @@ navbarPage(theme = shinytheme("flatly"),id = "navibar",
            fluidRow(
              column(4,htmlOutput("Notas_landing")),
              
-             column(8, htmlOutput("header_6"),tags$iframe(width="840",align= "center",height="472.5", src="https://www.youtube.com/embed/RtLWWwGW-XA", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)
+             column(8, htmlOutput("header_6"),tags$iframe(width="840",align= "center",height="472.5", src="https://www.youtube.com/embed/qt7qZM9zaSI", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)
              ))),
            ###################################################
            # Panel: Visualizaciones
@@ -279,7 +279,29 @@ $(window).on("message", function(e) {
       ),
       
       uiOutput("frame_6")
-        )
+        ),
+    fluidRow(
+      tags$head(
+        tags$script(HTML('
+                         $(window).on("message", function(e) {
+                         var oe = e.originalEvent;
+                         if (oe.origin !== "https://twitframe.com")
+                         return;
+                         if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1393350729927073792"){
+                         $("#tweet_5").css("height", parseInt(oe.data.height) + "px");
+                         }
+                         });')),
+        tags$style(HTML(
+          "
+          .content {
+          margin: auto;
+          padding: 20px;
+          width: 60%;
+          }"))
+      ),
+      
+      uiOutput("frame_7")
+    )
     
              
            ),

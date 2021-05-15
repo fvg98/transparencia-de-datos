@@ -333,7 +333,7 @@ server <- function(session, input, output) {
   output$header_3 <- renderText({paste("<center><b>Publicaciones</b></center>","<center><h3>Aquí puedes ver el resto de nuestras visualizaciones</h3></center>","<center><h4>Haz clic en el Tweet para ver el hilo</h4></center>",sep = " ")})
   output$header_4 <- renderText({paste("<center><b>(Recurso del INE)</b></center>","<center><h4>Te dejamos un pequeño tutorial de como utilizarlo:</h4></center>",sep = " ")})
   output$header_5 <- renderText({paste("<center><b>¡Te damos la bienvenida!</b></center>","<center><h4>Somos un grupo estudiantil que busca aportar en este proceso electoral</h4></center>",sep = " ")})
-  output$header_6 <- renderText({paste("<h4><b>¡Es importante dimensionar la maginitud de estas elecciones!</b></h4>",sep = " ")})
+  output$header_6 <- renderText({paste("<h4><b>Primero te queremos dar una breve introducción a nuestro dashboard:</b></h4>",sep = " ")})
   ###############################################
   ###############################################
   #Tweets
@@ -450,6 +450,26 @@ server <- function(session, input, output) {
       singleton(tags$script(HTML(
         "$(document).ready(function(){
         $('iframe#https://twitter.com/DatalabITAM/status/1392615740646117376').on('load', function() {
+        this.contentWindow.postMessage(
+        { element: {id:this.id}, query: 'height' },
+        'https://twitframe.com');
+        });
+  });")))
+    )
+  })
+  output[["frame_7"]] <- renderUI({
+    tagList(
+      tags$div(
+        class = "content",
+        tags$div(tags$iframe(
+          id = "https://twitter.com/DatalabITAM/status/1393350729927073792",
+          border=0, frameborder=0, height=350, width=800,
+          src = "https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2FDatalabITAM%2Fstatus%2F1393350729927073792"
+        ))
+      ),
+      singleton(tags$script(HTML(
+        "$(document).ready(function(){
+        $('iframe#https://twitter.com/DatalabITAM/status/1393350729927073792').on('load', function() {
         this.contentWindow.postMessage(
         { element: {id:this.id}, query: 'height' },
         'https://twitframe.com');
