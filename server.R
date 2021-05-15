@@ -1,5 +1,4 @@
 library(shiny)
-#require(shinyserver)
 library(plotly)
 
 ##########################################
@@ -266,8 +265,8 @@ server <- function(session, input, output) {
       node = list(
         label = nodes,
         color = colors,
-        x = node_x,
-        y = node_y,
+        #x = node_x,
+        #y = node_y,
         pad = 15,
         thickness = 20,
         line = list(

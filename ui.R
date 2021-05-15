@@ -4,8 +4,6 @@ library(shinydashboard)
 library(shinythemes)
 library(plotly)
 
-
-
 ###### PRINCIPAL #####
 navbarPage(theme = shinytheme("flatly"),id = "navibar",
            title = tags$a(href='http://datalabitam.com/index.html',
