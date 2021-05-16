@@ -17,7 +17,7 @@ navbarPage(theme = shinytheme("flatly"),id = "navibar",
            fluidRow(
              column(4,htmlOutput("Notas_landing")),
              
-             column(8, htmlOutput("header_6"),tags$iframe(width="840",align= "center",height="472.5", src="https://www.youtube.com/embed/RtLWWwGW-XA", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)
+             column(8, htmlOutput("header_6"),tags$iframe(width="840",align= "center",height="472.5", src="https://www.youtube.com/embed/j4dhhuq-57c", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)
              ))),
            ###################################################
            # Panel: Visualizaciones
@@ -293,7 +293,7 @@ navbarPage(theme = shinytheme("flatly"),id = "navibar",
                                                              htmlOutput("header_4"))),tags$br(),
                     fluidRow(column(12, align="center", uiOutput("INE_url"))),
                     fluidRow(br()),
-                    fluidRow(column(3),column(8,tags$iframe(width="560", height="315",align= "center", src="https://www.youtube.com/embed/VHiQBhIl92o", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)),column(2))
+                    fluidRow(column(3),column(8,tags$iframe(width="560", height="315",align= "center", src="https://www.youtube.com/embed/cdyU4rm3dfE", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)),column(2))
                     ),
            ###################################################
            # Panel: Contacto
