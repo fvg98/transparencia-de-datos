@@ -265,7 +265,26 @@ navbarPage(theme = shinytheme("flatly"),id = "navibar",
                       width: 60%;
                                       }"))),
                       uiOutput("frame_6")
-                      )
+                      ),
+                    fluidRow(
+                      tags$head(
+                        tags$script(HTML('
+                        $(window).on("message", function(e) {
+                        var oe = e.originalEvent;
+                        if (oe.origin !== "https://twitframe.com")
+                        return;
+                        if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1393350729927073792"){
+                        $("#tweet_5").css("height", parseInt(oe.data.height) + "px");
+                        }
+                                         });')),
+                      tags$style(HTML("
+                      .content {
+                      margin: auto;
+                      padding: 20px;
+                      width: 60%;
+                      }"))),
+                      uiOutput("frame_7")
+                        )
                     ),
            ###################################################
            # Panel: INE
@@ -276,12 +295,21 @@ navbarPage(theme = shinytheme("flatly"),id = "navibar",
                     fluidRow(br()),
                     fluidRow(column(3),column(8,tags$iframe(width="560", height="315",align= "center", src="https://www.youtube.com/embed/VHiQBhIl92o", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)),column(2))
                     ),
+           ###################################################
+           # Panel: Contacto
            navbarMenu("Contacto",
                       tabPanel(title=HTML("</a></li><li><a href='https://github.com/fvg98/transparencia-de-datos/' target='_blank'>Repositorio en GitHub")),        
                       tabPanel(title=HTML("</a></li><li><a href='https://twitter.com/DatalabITAM?s=08' target='_blank'>Twitter")),
                       tabPanel(title=HTML("</a></li><li><a href='https://instagram.com/datalabitam?igshid=4hr74hjef9n3' target='_blank'>Instagram")),
                       tabPanel(title=HTML("</a></li><li><a href='http://datalabitam.com/index.html' target='_blank'>Sitio Web"))
+                    ),
+           ###################################################
+           # Panel: Recursos externos
+           navbarMenu("Recursos externos",
+                      tabPanel(title=HTML("</a></li><li><a href='https://www.apielectoral.mx/' target='_blank'>API abierta-información de candidatos")),
+                      tabPanel(title=HTML("</a></li><li><a href='https://www.latitud312.com/' target='_blank'>Latitud 3°12"))
                       )
+           
            ###################################################
            )
 

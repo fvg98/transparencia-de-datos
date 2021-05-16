@@ -329,8 +329,8 @@ server <- function(session, input, output) {
   ###############################################
   #Texto a mostrar en landing pages
   output$header_1 <- renderText({paste("<center><b>Datalab</b></center>" ,"<center>Transparencia legislativa</center>",sep=" ")})
-  output$header_2 <- renderText({paste("<center><b>Nuestro objetivo es facilitar el acceso a información legislativa</b></center>")})
-  output$header_3 <- renderText({paste("<center><b>Publicaciones</b></center>","<center><h4>Haz clic en el Tweet para ver el hilo</h4></center>",sep = " ")})
+  output$header_2 <- renderText({paste("<center><b>Nuestro objetivo es facilitar el acceso a la información legislativa</b></center>")})
+  output$header_3 <- renderText({paste("<center><b>Publicaciones</b></center>","<center><h3>Aquí puedes ver el resto de nuestras visualizaciones</h3></center>","<center><h4>Haz clic en el Tweet para ver el hilo</h4></center>",sep = " ")})
   output$header_4 <- renderText({paste("<center><b>Recurso del INE</b></center>","<center><h4>Tu participación es muy importante.</h4></center>",sep = " ")})
   output$header_5 <- renderText({paste("<center><b>¡Te damos la bienvenida!</b></center>","<center><h4>Somos un grupo estudiantil que busca aportar en este proceso electoral</h4></center>",sep = " ")})
   output$header_6 <- renderText({paste("<h4><b>Te dejamos un video para guiarte por la página:</b></h4>",sep = " ")})
@@ -347,7 +347,7 @@ server <- function(session, input, output) {
         class = "content",
         tags$div(tags$iframe(
           id = "https://twitter.com/DatalabITAM/status/1385341212027092992",
-          border=0, frameborder=0, height=370, width=600,
+          border=0, frameborder=0, height=400, width=600,
           src = "https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2FDatalabITAM%2Fstatus%2F1385341212027092992"
         ))
       ),
@@ -407,7 +407,7 @@ server <- function(session, input, output) {
         class = "content",
         tags$div(tags$iframe(
           id = "https://twitter.com/DatalabITAM/status/1388259181791113220",
-          border=0, frameborder=0, height=370, width=800,
+          border=0, frameborder=0, height=400, width=800,
           src = "https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2FDatalabITAM%2Fstatus%2F1388259181791113220"
         ))
       ),
@@ -461,6 +461,26 @@ server <- function(session, input, output) {
   });")))
     )
   })
+  output[["frame_7"]] <- renderUI({
+    tagList(
+      tags$div(
+        class = "content",
+        tags$div(tags$iframe(
+          id = "https://twitter.com/DatalabITAM/status/1393350729927073792",
+          border=0, frameborder=0, height=400, width=800,
+          src = "https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2FDatalabITAM%2Fstatus%2F1393350729927073792"
+        ))
+      ),
+      singleton(tags$script(HTML(
+        "$(document).ready(function(){
+        $('iframe#https://twitter.com/DatalabITAM/status/1393350729927073792').on('load', function() {
+        this.contentWindow.postMessage(
+        { element: {id:this.id}, query: 'height' },
+        'https://twitframe.com');
+        });
+  });")))
+    )
+    })
   observeEvent(input$navibar,{
     if(input$navibar == "home"){
       browseURL("https://candidaturas.ine.mx/")
