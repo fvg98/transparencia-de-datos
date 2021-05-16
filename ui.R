@@ -4,7 +4,7 @@ library(shinydashboard)
 library(shinythemes)
 library(plotly)
 
-###### PRINCIPAL #####
+###### PRINCIPAL ###### 
 navbarPage(theme = shinytheme("flatly"),id = "navibar",
            title = tags$a(href='http://datalabitam.com/index.html',
                           tags$img(src='logo_2.png',height=28,style="display: block; margin-left: auto; margin-right: auto; display: flex; align-items: center; justify-content: center;")),
@@ -145,162 +145,144 @@ navbarPage(theme = shinytheme("flatly"),id = "navibar",
                       
                     )
                     ),
+           ###################################################
+           # Panel: Publicaciones
            tabPanel("Publicaciones",titlePanel(div(windowTitle = "Landing page",
                                                    HTML('<center><img src="PUB_2.png" width="300"></center>'),
                                                    htmlOutput("header_3"))),tags$br(),
                     fluidRow(
                       tags$head(
-                        tags$script(HTML('
-$(window).on("message", function(e) {
-                                         var oe = e.originalEvent;
-                                         if (oe.origin !== "https://twitframe.com")
-                                         return;
-                                         if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1385341212027092992"){
-                                         $("#tweet").css("height", parseInt(oe.data.height) + "px");
-                                         }
-                                         });')),
-                        tags$style(HTML(
-                          "
-                          .content {
-                          margin: auto;
-                          padding: 20px;
-                          width: 60%;
-                          }"))
-    ),
-    
-    uiOutput("frame")
-                        ),
-    fluidRow(
-      tags$head(
-        tags$script(HTML('
-$(window).on("message", function(e) {
-                         var oe = e.originalEvent;
-                         if (oe.origin !== "https://twitframe.com")
-                         return;
-                         if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1385715021775138816"){
-                         $("#tweet_2").css("height", parseInt(oe.data.height) + "px");
-                         }
-                         });')),
-        tags$style(HTML(
-          "
-                          .content {
-                          margin: auto;
-                          padding: 20px;
-                          width: 60%;
-                          }"))
-      ),
+                      tags$script(HTML('
+                      $(window).on("message", function(e) {
+                      var oe = e.originalEvent;
+                      if (oe.origin !== "https://twitframe.com")
+                      return;
+                      if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1385341212027092992"){
+                      $("#tweet").css("height", parseInt(oe.data.height) + "px");
+                      }
+                                       });')),
+                      tags$style(HTML("
+                      .content {
+                      margin: auto;
+                      padding: 20px;
+                      width: 60%;
+                                      }"))),
+                      uiOutput("frame")
+                      ),
+                    fluidRow(
+                      tags$head(
+                      tags$script(HTML('
+                      $(window).on("message", function(e) {
+                      var oe = e.originalEvent;
+                      if (oe.origin !== "https://twitframe.com")
+                      return;
+                      if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1385715021775138816"){
+                      $("#tweet_2").css("height", parseInt(oe.data.height) + "px");
+                      }
+                                       });')),
+                      tags$style(HTML("
+                      .content {
+                      margin: auto;
+                      padding: 20px;
+                      width: 60%;
+                                      }"))),
+                      uiOutput("frame_2")
+                      ),
+                    fluidRow(
+                      tags$head(
+                      tags$script(HTML('
+                      $(window).on("message", function(e) {
+                      var oe = e.originalEvent;
+                      if (oe.origin !== "https://twitframe.com")
+                      return;
+                      if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1386808302374322177"){
+                      $("#tweet_3").css("height", parseInt(oe.data.height) + "px");
+                      }
+                                       });')),
+                      tags$style(HTML("
+                      .content {
+                      margin: auto;
+                      padding: 20px;
+                      width: 60%;
+                                      }"))),
       
-      uiOutput("frame_2")
-    ),
-    fluidRow(
-      tags$head(
-        tags$script(HTML('
-$(window).on("message", function(e) {
-                         var oe = e.originalEvent;
-                         if (oe.origin !== "https://twitframe.com")
-                         return;
-                         if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1386808302374322177"){
-                         $("#tweet_3").css("height", parseInt(oe.data.height) + "px");
-                         }
-                         });')),
-        tags$style(HTML(
-          "
-                          .content {
-                          margin: auto;
-                          padding: 20px;
-                          width: 60%;
-                          }"))
-      ),
+                      uiOutput("frame_3")
+                      ),
+                    fluidRow(
+                      tags$head(
+                      tags$script(HTML('
+                      $(window).on("message", function(e) {
+                      var oe = e.originalEvent;
+                      if (oe.origin !== "https://twitframe.com")
+                      return;
+                      if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1388259181791113220"){
+                      $("#tweet_4").css("height", parseInt(oe.data.height) + "px");
+                      }
+                                       });')),
+                      tags$style(HTML("
+                      .content {
+                      margin: auto;
+                      padding: 20px;
+                      width: 60%;
+                                      }"))),
       
-      uiOutput("frame_3")
-    ),
-    fluidRow(
-      tags$head(
-        tags$script(HTML('
-$(window).on("message", function(e) {
-                         var oe = e.originalEvent;
-                         if (oe.origin !== "https://twitframe.com")
-                         return;
-                         if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1388259181791113220"){
-                         $("#tweet_4").css("height", parseInt(oe.data.height) + "px");
-                         }
-                         });')),
-        tags$style(HTML(
-          "
-                          .content {
-                          margin: auto;
-                          padding: 20px;
-                          width: 60%;
-                          }"))
-      ),
-      
-      uiOutput("frame_4")
-    ),
-    fluidRow(
-      tags$head(
-        tags$script(HTML('
-$(window).on("message", function(e) {
-  var oe = e.originalEvent;
-  if (oe.origin !== "https://twitframe.com")
-    return;
-  if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1389712137149292545"){
-    $("#tweet_5").css("height", parseInt(oe.data.height) + "px");
-  }
-});')),
-        tags$style(HTML(
-          "
-          .content {
-          margin: auto;
-          padding: 20px;
-          width: 60%;
-          }"))
-      ),
-      
-      uiOutput("frame_5")
-        ),
-    fluidRow(
-      tags$head(
-        tags$script(HTML('
-                         $(window).on("message", function(e) {
-                         var oe = e.originalEvent;
-                         if (oe.origin !== "https://twitframe.com")
-                         return;
-                         if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1392615740646117376"){
-                         $("#tweet_5").css("height", parseInt(oe.data.height) + "px");
-                         }
-                         });')),
-        tags$style(HTML(
-          "
-          .content {
-          margin: auto;
-          padding: 20px;
-          width: 60%;
-          }"))
-      ),
-      
-      uiOutput("frame_6")
-        )
-    
-             
-           ),
-    tabPanel("Conoce a tus candidatos",titlePanel(div(windowTitle = "Landing page",
-                                                      HTML('<center><img src="INE.png" width="300"></center>'),
-                                                      htmlOutput("header_4"))),tags$br(),
-             fluidRow(column(12, align="center", uiOutput("INE_url"))),
-             fluidRow(br()),
-             fluidRow(column(3),column(8,tags$iframe(width="560", height="315",align= "center", src="https://www.youtube.com/embed/VHiQBhIl92o", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)),column(2))
-             ),
-    navbarMenu("Contacto",
-               tabPanel(title=HTML("</a></li><li><a href='https://github.com/fvg98/transparencia-de-datos/' target='_blank'>Repositorio en Github")),        
-               tabPanel(title=HTML("</a></li><li><a href='https://twitter.com/DatalabITAM?s=08' target='_blank'>Twitter")),
-               tabPanel(title=HTML("</a></li><li><a href='https://instagram.com/datalabitam?igshid=4hr74hjef9n3' target='_blank'>Instagram")),
-               tabPanel(title=HTML("</a></li><li><a href='http://datalabitam.com/index.html' target='_blank'>Sitio Web"))
-             
-           )
+                      uiOutput("frame_4")
+                      ),
+                    fluidRow(
+                      tags$head(
+                      tags$script(HTML('
+                      $(window).on("message", function(e) {
+                      var oe = e.originalEvent;
+                      if (oe.origin !== "https://twitframe.com")
+                      return;
+                      if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1389712137149292545"){
+                      $("#tweet_5").css("height", parseInt(oe.data.height) + "px");
+                      }
+                                       });')),
+                      tags$style(HTML("
+                      .content {
+                      margin: auto;
+                      padding: 20px;
+                      width: 60%;
+                                      }"))),
+                      uiOutput("frame_5")
+                      ),
+                    fluidRow(
+                      tags$head(
+                      tags$script(HTML('
+                      $(window).on("message", function(e) {
+                      var oe = e.originalEvent;
+                      if (oe.origin !== "https://twitframe.com")
+                      return;
+                      if (oe.data.height && oe.data.element.id === "https://twitter.com/DatalabITAM/status/1392615740646117376"){
+                      $("#tweet_5").css("height", parseInt(oe.data.height) + "px");
+                      }
+                                       });')),
+                      tags$style(HTML("
+                      .content {
+                      margin: auto;
+                      padding: 20px;
+                      width: 60%;
+                                      }"))),
+                      uiOutput("frame_6")
+                      )
+                    ),
+           ###################################################
+           # Panel: INE
+           tabPanel("Conoce a tus candidatos",titlePanel(div(windowTitle = "Landing page",
+                                                             HTML('<center><img src="INE.png" width="300"></center>'),
+                                                             htmlOutput("header_4"))),tags$br(),
+                    fluidRow(column(12, align="center", uiOutput("INE_url"))),
+                    fluidRow(br()),
+                    fluidRow(column(3),column(8,tags$iframe(width="560", height="315",align= "center", src="https://www.youtube.com/embed/VHiQBhIl92o", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen=NA)),column(2))
+                    ),
+           navbarMenu("Contacto",
+                      tabPanel(title=HTML("</a></li><li><a href='https://github.com/fvg98/transparencia-de-datos/' target='_blank'>Repositorio en GitHub")),        
+                      tabPanel(title=HTML("</a></li><li><a href='https://twitter.com/DatalabITAM?s=08' target='_blank'>Twitter")),
+                      tabPanel(title=HTML("</a></li><li><a href='https://instagram.com/datalabitam?igshid=4hr74hjef9n3' target='_blank'>Instagram")),
+                      tabPanel(title=HTML("</a></li><li><a href='http://datalabitam.com/index.html' target='_blank'>Sitio Web"))
+                      )
            ###################################################
            )
-#
-                                
-                                
-                                
+
               
